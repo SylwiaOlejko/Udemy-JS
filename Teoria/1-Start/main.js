@@ -36,10 +36,26 @@ const variableName = "tutaj zawartość";
 -ignorowanie przez interpreter
 -pisz, bo za miesiac nie będziesz pamietał co robiłes i dlaczego :)
 -samokomentujący się kod? Nazwy, których używasz mają byc zrozumiałe
+
 const userID = 1023l;
 function upadereScore(){}
 let lastLogin = "11.09.2018"
 
+góra poprawna
+dół nie poprawny kod
+
 const a1 = "Tomasz"
 function add(){}
 function addUsersToCourse(){}
+-komentujemy kod w celach testowych (wyłaczy/włączyć)
+*/
+
+//komentarz jednowierszowy
+//ctrl (slash) = /
+
+/*
+komentarz wielowierdzowy
+alt shift a
+*/
+
+
