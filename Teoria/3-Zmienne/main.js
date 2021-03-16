@@ -64,3 +64,34 @@ const example2 = 200;
 
 // Pamietajmy też, że taki zapis jak ponizej to kopiowana wartość istniejącej zmiennej do nowej zmiennej. Tworzy się nowa wartość, to nie jest ta sama wartość, mimo że jest identyczna. 
 // let example3 = example2;
+
+// CONST - przykładz z obiektem (jeszcze nie omawialiśmy obiektów)
+const arrayExample = ["pierwszy"]; // utworzenie tablicy z jednym elementem w środku
+
+// Przypisanie nowego obiektu (poniżej) nie jest możliwe w przypadku const. Wyskoczy błąd
+// arrayExample = [1, 2];
+
+
+// Modyfikacje w obiekcie juz przypisanym - jak najbardziej są możliwe w const
+arrayExample[1] = "drugi"; //dodajey drugi element w tablicy. Ale to ciągle ta sama tablicaq
+// console.log(arrayExample);
+
+// Bardzo ważny jest zakres (scope) zmiennych, ale o tym sobie jeszcze powiemy.
+
+// Obiekt globalny (window) z var tworzona jest nowa właściwość (głupie). Z let i const nie jest tworzoba
+var globalProperty1 = "za pomocą var";
+//powyżej utworzy też window.globalProperty1. Poniżej nie
+let globalProperty2 = "za pomocą let";
+const globalProperty3 = "za pomocą const";
+// console.log(window.globalProperty1);
+
+// Hoistowana var, let i const
+// hoisting to przenoszenie przez interpreter na góre kodu (przed jego wykonaniem) deklaracji zmiennych ale nie inicjalizacji wartości. Hoisting dotyczy zmiennych deklarowanych za pomocą var, ale nie let i const (to dobrze, bo hositing może wprowadzać w błąd).
+//Pamiętajmy, że wynoszona na górę jest tylko deklaracja. A zadeklarowana zmienna (bez przypisania) ma wartość undefined
+
+// console.log(varVariable);
+// console.log(letVariable);
+// console.log(constVariable);
+// var varVariable = 1;
+// let letVariable = 1;
+// const constVariable = 1;
