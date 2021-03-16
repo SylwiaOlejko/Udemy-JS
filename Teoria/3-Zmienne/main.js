@@ -40,3 +40,27 @@ let userSurname = " Smith";
 let name, age, address; //w jednej linii tylko przed pierwszą nazwą słowo kluczowe
 let position = [200, 100], score = null, time = 20.2, ipAddress; //możemy od razu inicializować (przypisywać) wartość zmiennej
 const firstUser = "Ania", secondUser = "Tomasz";
+
+/* ZMIENNE STAŁE I ZMIENNE ZMIENNE */
+
+// const - zmienna stała (stała) od ES6
+// let - zmienna od ES6
+// var - zmienna przed ES6 (ciągle można używać)
+
+// Tworząć zmienną wybierz const, chyba że zawartosć (wartość przypisana), będzie w trakcie działania programu zamienniona inną wartością.
+
+// Różnice
+//  - "let" i "const" można zadeklarować tylko raz, var (co jest głupie) pozawala deklarować wielokrotnie
+//  - do "const" nie mozna przypisać nowej wartości (można modyfikować obiekty, które są przypisane)
+
+let example1 = 200;
+example1 = example1 + 1; // przypisujemy nową wartość zwiększoną o 1
+example1++; //przypisujemy nową wartość zwiekszoną o 1
+
+const example2 = 200;
+// const już na to nie pozwoli (będzie błąd), bo nie można nowej wartości przypisać (pamietajmy, że taka zmiana jest tworzeniem nowej wartości)
+// example2 = example2 + 1;
+// example2++;
+
+// Pamietajmy też, że taki zapis jak ponizej to kopiowana wartość istniejącej zmiennej do nowej zmiennej. Tworzy się nowa wartość, to nie jest ta sama wartość, mimo że jest identyczna. 
+// let example3 = example2;
