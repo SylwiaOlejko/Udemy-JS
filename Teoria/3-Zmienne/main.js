@@ -95,3 +95,14 @@ const globalProperty3 = "za pomocą const";
 // var varVariable = 1;
 // let letVariable = 1;
 // const constVariable = 1;
+
+
+/*  JAKICH ZMIENNYCH UŻYWAĆ */
+// Po pierwsze const, po drugie, jeśli zawartość zmiennej ma ulegać zmianie to let.
+
+// Jeśli program nie będzie zmieniać imienia użytkownika
+const userName = "Adam";
+// Jeśli program będzie zmieniał wynik
+let points = 200;
+// Zmiennej var możemy używać, ale bardzo rzadko ma to sens (w małych projektach na stronkach).
+var userLastLoginDate = "15.10.2018";
