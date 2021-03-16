@@ -36,3 +36,7 @@ let userSurname = " Smith";
 //  Deklaracja i przypisanie podczas, której tworzymy funkcję
 //  let showUserName = function () { console.log(userSurname)};
 
+// DEKLAROWANIE WIELU ZMIENNYCH
+let name, age, address; //w jednej linii tylko przed pierwszą nazwą słowo kluczowe
+let position = [200, 100], score = null, time = 20.2, ipAddress; //możemy od razu inicializować (przypisywać) wartość zmiennej
+const firstUser = "Ania", secondUser = "Tomasz";
