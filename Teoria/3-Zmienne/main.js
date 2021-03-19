@@ -11,7 +11,7 @@
 
 /* CZY ZMIENNA MA TYP?  Cze zmienna jest w string, number, itp?*/
 // W wielu językach tak, ale nie w JS. W JS typ ma wartość, która jest przechowywana w zmiennej. Wraz z deklaracją nie podjaemy typu zmiennej. Gdyby JS upodobnic do innych popularnych języków programowania to mogłoby to wyglądać tak: 
-let number idUser = 76;
+//let number idUser = 76;
 // Ale tak nie jest, a wygląda tak
 let idUser = 76;
 // Przy czym TYPY ISTNIEJĄ, ale są nadawane dynamicznie, czyli przez interpreter podczas wykonywania programu (mówimy o typowaniu dynamicznym). Pamiętamjmy jednak, że to nie zmienna ma typ number tutaj a wartość. Zmienna tylko przechowuje wartość.
@@ -110,24 +110,24 @@ var userLastLoginDate = "15.10.2018";
 
 // LISTA SŁÓW ZAREZERWOWANYCH (nie można używać jako nazwy zmiennych)
 /* 
-await
-abstract
+await - czekać na
+abstract - abstrakcyjny
 boolean
-byte
-break
-char
-class
-case
-catch
-continue
-const
+byte - bajt
+break - przerwa
+char - zwęglać
+class - klasa
+case - walizka 
+catch - złapać
+continue - kontynuować 
+const - zmienna
 debugger
-double
-default
-delete
-do
+double - podwójny
+default - domyślna 
+delete - kasować 
+do - zrobić
 enum
-export
+export - eksportować 
 extends
 else
 final
