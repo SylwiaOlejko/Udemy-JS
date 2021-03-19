@@ -66,9 +66,9 @@ let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość
 
 
 //operator różne od 
-100! = 101;
-"100" ! == 100;
-"100" ! = 100;
+//100! = 101;
+//"100" ! == 100;
+//"100" ! = 100;
 
 //logiczne zaprzeczenie (negacja) zamienia na typ boolean i odwraca
 !("coś");
