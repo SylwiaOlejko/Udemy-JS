@@ -64,3 +64,7 @@ let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość
 // === - porównanie, które nie dopuszcza konwersji typów
 "2" === 2; //bez konkwersji typów, a więc "2" nie jest równe 2 i zwraca false
 
+// KOLEJNOŚĆ OPERATORÓW
+2 + 3 * 5; //mnożenie przed dzielenie
+(2 + 3) * (5 - 4); //nawiasy dają pierwszeńtstow (zaurzają kolejność wykonywania operatorów)
+"2" + 3 * 5; //konwersja nie zaburza kolejności ale wpływa na efekt końcowy. W tym wypadku najpeirw mnożenie a więc "2" + 15, a z tego drugiego działania mamy "215"
