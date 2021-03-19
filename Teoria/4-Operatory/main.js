@@ -64,6 +64,31 @@ let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość
 // === - porównanie, które nie dopuszcza konwersji typów
 "2" === 2; //bez konkwersji typów, a więc "2" nie jest równe 2 i zwraca false
 
+
+//operator różne od 
+100! = 101;
+"100" ! == 100;
+"100" ! = 100;
+
+//logiczne zaprzeczenie (negacja) zamienia na typ boolean i odwraca
+!("coś");
+!!(2 - 2); //podwójna negacja
+!!200;
+
+// suma logiczna (logiczne "lub")
+true || false;
+false || true;
+true || true;
+false || false;
+null || 200;
+
+//iloczyn logiczny (logiczne "i")
+true && false;
+200 && 0;
+"1" && "2";
+"1" && "";
+(20 > 10 && 10 < 20);
+
 // KOLEJNOŚĆ OPERATORÓW
 2 + 3 * 5; //mnożenie przed dzielenie
 (2 + 3) * (5 - 4); //nawiasy dają pierwszeńtstow (zaurzają kolejność wykonywania operatorów)
