@@ -68,3 +68,9 @@ let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość
 2 + 3 * 5; //mnożenie przed dzielenie
 (2 + 3) * (5 - 4); //nawiasy dają pierwszeńtstow (zaurzają kolejność wykonywania operatorów)
 "2" + 3 * 5; //konwersja nie zaburza kolejności ale wpływa na efekt końcowy. W tym wypadku najpeirw mnożenie a więc "2" + 15, a z tego drugiego działania mamy "215"
+
+
+//OPERATOR WARUNKOWY (trójargumentowy) - na teraz ciekawostka
+// warunek? zrobToJakPrawda : zrobToJanFałsz
+3 > 2 ? "tak" : "nie";
+// Sprawdzamy warunek. Jeśli jest prawidłowy interpreter wykonuje kod po lewej stronie (w przykładzie "tak") i pomija ten po prawej, jeśli warunek zwróci false, ty pominięty zostanie kod po lewej stronie a wykonany zostanie kod po prawej (w przykładzie "nie")
