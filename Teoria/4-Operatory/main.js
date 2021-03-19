@@ -50,3 +50,17 @@ let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość
 2 ** 5; // 2 do 5, czyli 2 * 2 * 2 * 2 * 2
 3 ** 3; // 3 do 3, czyli 3 * 3 * 3
 
+/* OPERATOR LOGICZNY */
+// operator porównania (większy/mniejszy) - zwraca true lub false
+20 > 40 ; // false
+"tekst".length > 3; // właściwość length zawiera informacje o długości tekstu (ile ma znaków) w tym wypadku 5 > 3 , więc zwróci true
+20 <= 20; // mniejszy równy (jest też >= większy równy). W tym wypadku 20 jest mniejsze-równe 20 (nie jest mniejsze ale jest równe), czyli true.
+
+//operator porównania (czy są równe)
+// == sprawdź czy dane wartości (wyrazenia )sa równe. Dopuszcza konwersje. Jeśli są równe zwraca true, jeśli nie są równe to zwraca flase\
+"tekst" == "tekst2"; //false
+2 == 2.2; //false
+"2" == 2; // dokonuje konwersji typów, zamienia "2" na 2 i zwraca true (bo wtedy rzeczywiście sa równe)
+// === - porównanie, które nie dopuszcza konwersji typów
+"2" === 2; //bez konkwersji typów, a więc "2" nie jest równe 2 i zwraca false
+
