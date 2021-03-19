@@ -128,49 +128,49 @@ delete - kasować
 do - zrobić
 enum
 export - eksportować 
-extends
-else
-final
-float
-false
-finally
-for
-function
-goto
-implements
-import
+extends - rozciąga się 
+else - jeszcze
+final - finał
+float - pływak
+false - fałsz
+finally - wreszcie
+for - dla
+function - funkcja
+goto - iść do 
+implements - przybory
+import - importuj 
 int
 interface
-if
-in
-instanceof
-long
-native
-new
-null
-package
-private
-protected
-public
-return
-short
-static
+if - gdyby
+in - w
+instanceof - wystąpienie
+long - długi
+native - ojczysty
+new - nowy 
+null - zero
+package - pakiet
+private -prywatny 
+protected -chroniony
+public - publiczny
+return - powrót
+short 
+static - statyczny 
 super
-synchronized
-switch
-throws
-transient
-this
-throw
-true
-try
-typeof
-volatile
+synchronized - synchronizacja
+switch - przełącznik
+throws - rzuca
+transient - przejściowy
+this - to 
+throw - rzucać 
+true - prawda
+try - próbować
+typeof -  typ
+volatile - lotny
 var
-void
-while
-with
-yield
+void - unieważnić
+while - podczas
+with -z
+yield - wydajność
  */
 
 
