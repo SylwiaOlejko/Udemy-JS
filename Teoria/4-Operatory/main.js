@@ -20,3 +20,33 @@ result = 1;
 // operator inkrementacji (jeden argument)
 result++;
 //mamy też operator trójargumentowy (pokazany na koniec pliku)
+
+/* OPERATORY ARTYMETYCZNE */ 
+let position = 2;
+//inkrementacja. Zwróc wartość i dodaj jeden do wartości inkrementowanej
+position++ //zwraca 2 i dodaje 1 (czyli jest 3)
+//dekrementacja. Zwraca aktualną wartość a potem ją mniejsza o 1 
+position--
+//preinkrementacja - zwiększa wartośc o 1 a potem zwraca aktualną wartość
+++position
+position += 1; //zadziała tak samo jak preinkrementacja
+//predekrementacja - zmniejsza wartośc o 1 a potem zwraca aktualną wartość
+--position
+
+//przypisanie
+position += 10; //przypisauje do zmiennej nową wartość, która jest wynikiem pobrania aktualnej wartości zmiennej i dodania do niej 10
+position = position + 10; //W praktycew to się dzieje. Jest to zapis tożsamy.
+position -= 16; //jw czyli pobiera aktualną wartość zmiewnnej i w tym wypadku mnoży ją zwracając nową wartość
+position /= 2; //jw tylko dzielenie
+
+let nerPosition = 0; // pobiera wartość newPosition i dodaje do niej wartość position. WQynika działania (nowa wartość) jest przypisana do newPosition
+//console.log(nerPosition);
+
+//Modulo - reszta z dziedziczenia
+10 % 9; //w wyniku dzielenia zostaje 1 (bo 10/9 do jedna dziewiąta i jeden reszty)
+20 % 4; // w wyniku dzielenia powstaje 5 i nie ma reszty, więc modulo nie zwraca reszty
+
+// ** potęga ES6 
+2 ** 5; // 2 do 5, czyli 2 * 2 * 2 * 2 * 2
+3 ** 3; // 3 do 3, czyli 3 * 3 * 3
+
