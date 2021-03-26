@@ -91,3 +91,66 @@ console.log(20 % 2) //0
 // konkatenacja
 20 + "20" //"2020"
 20 * "20" //400
+
+
+//Konwersja niejawna/automatyczna (coercion) liczby w stringa lub stringa w liczbę (przy różnych operatorach)
+// konkatenacja
+20 + "20" //"2020"
+20 * "20" //400
+
+// Konwersja jawna - inny typ w number
+Number('210'); //210
+Number(true); //1
+Number(""); //0
+Number("cos"); //NaN - jeśli czegoś nie może zamienić w liczbę
+
+//Wykorzystanie konwersji niejawnej
+// trick - przemnożyć przez jeden bo mnożenie zamienia stringa na number
+"20" * 1
+ // Sztuczka działająca (hack)
+ + "20"
+// Natomiast liczbę na stringa możemy zamienić dodając pusty strong
+20 + ""
+
+//Gdy chcemy typ number zamienić na typ string (toString było wyżej, ale przypominam) 
+200..toString();
+String(200);
+// oczywiście najczęsciej konwertujemy odwołujace się do zmiennej, a nie bezpośrednio liczbę
+
+// Również parseInt() pozwala nam zmienić stringa w number. Najpierw podajemy string (w którym jest liczba) a potem możemy powiedzieć w jakim jest systemie. Wynikiem działania funkcji będzie number w zapisie dziesiętnym
+parseInt('20', 10) //20
+parseInt('100', 2) //4
+parseInt('0xff', 16) //255
+// Druga wartość jest niepotrzebna jeśli chcemy uzyskać wartość dziesiętną
+parseInt('100') //100
+parseInt('200') //200
+parseInt('0xff') //255
+parseInt("222abc") //222 bo usunie litery. Działa jeśli liczba występuje jako pierwsza
+parseInt("22.55") //usunie to co po kropce 22
+parseFloat("2.22") // nie usuwa.
+
+parseInt('200') + parseInt("3"); //najpierw wykonają się metody a potem (na tym etapie będą już typu number) zostaną dodane 
+
+
+//Wykorzystanie wbudowanego obiektu Math. Ma wiele metod, które możemy wykorzystać w naszym programie
+Math.round(200.55); //zaokrąglenie w górę
+Math.round(200.45); //zaokrąglenie w dół 
+Math.floor(200.55); //pozbywamy się ułamka (po prostu jest usuwany, nie ma tu żadnego zaokrąglenia)
+Math.random(); //zwraca losową liczbę z przedziału od 0 do 1 (bez 1) czyli wynik >= 0 i <1 np. 0.3298483234
+
+// Przypomnienie inkrementacji i przypisania
+
+let activeUsers = 0;
+//inkrementacja
+activeUsers++;
+// przypisanie (dodanie) wartości
+activeUsers += 7;
+// activeUsers = activeUsers + 7;
+
+// Ciekawostki
+undefined + NaN //NaN
+Infinity + undefined //NaN
+Infinity - Infinity //NaN
+Infinity - 100 //Infinity
+0 + null // 0
+1 / Infinity //0
