@@ -74,3 +74,8 @@ const numberObj2 = new Number("doś") //podanie stringa da NaN, true da 1, a fal
 const umberObj3 = new Number("222.121") //da liczbę nawet jak podajemy argument jako string
 const umberObj4 = new Number(222.121) //wynik taki sam co wyżej 
 
+// Działania arytmetyczne - przykłady
+// Reszta z działania jest zwraca - modulu
+console.log(20 % 2) //0
+// console.log(20 % 3) //2
+// console.log(20 % 21) //20
