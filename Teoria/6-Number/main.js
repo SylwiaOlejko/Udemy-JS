@@ -79,3 +79,15 @@ const umberObj4 = new Number(222.121) //wynik taki sam co wyżej
 console.log(20 % 2) //0
 // console.log(20 % 3) //2
 // console.log(20 % 21) //20
+
+// Potęgowanie
+2 ** 8
+2 * 8
+2 / 8
+//Operatory dwuargumentowe (argumenty to operandy)
+
+
+//Konwersja niejawna/automatyczna (coercion) liczby w stringa lub stringa w liczbę (przy różnych operatorach)
+// konkatenacja
+20 + "20" //"2020"
+20 * "20" //400
