@@ -63,3 +63,14 @@ Number.isFinite(3e300); //true
 
 //NaN - wartość typu number, ale o nie rozpoznanej wartości (Not a Number). Liczba, która nie jest liczbą. np gdy number mnożymy przez string
 typeof NaN; //number
+
+
+//Infinity - gdy przekrozymy maksymalne i minimalne wartości i gdy dzielimy przez 0
+typeof Infinity; //number
+
+// Tworzenie obiektu instancji Number
+const numberObj = new Number() //bez podania wartości da 0
+const numberObj2 = new Number("doś") //podanie stringa da NaN, true da 1, a false 0
+const umberObj3 = new Number("222.121") //da liczbę nawet jak podajemy argument jako string
+const umberObj4 = new Number(222.121) //wynik taki sam co wyżej 
+
