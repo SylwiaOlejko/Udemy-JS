@@ -24,7 +24,7 @@ txt[2]; //pobranie znaku, kótry znajduje się pod danym indeksem
 
 txt.toUpperCase; //zwraca funkcje (czyli bez wywowałania kieruje do funkcji (metodą określamy funkcję, która jest przypisana do obiektu - oczywiście będziemy o tym jeszcze rozmawiać)
 txt.toUpperCase(); //wywołanie metody dla string
-score.toFixed(); //wywołanie metody dla number (typy nie mają tych samych metod, tylkjo różne)
+score.toFixed(); //wywołanie metody dla number (typy nie mają tych samych metod, tylkjo różne) zaokrąglenie
 txt.indexOf('ś'); //metoda sprawdzająca czy w danym stringu jest wskazany znak, a jeśli tak to na jakiej pozycji (o jakim indeksie, licząć od zera)
 
 
