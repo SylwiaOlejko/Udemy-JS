@@ -30,3 +30,23 @@ newNumber.toFixed(1);
 
 // Ważne: po zaokrągleniu metoda toFixed zwraca wartość, która jest stringiem
 
+// METODA .toString() - jawna zamiana typów z number na string z możliwością zamiany systemu liczbowego
+newNumber.toString(); //na system dziesiętny
+newNumber.toString(2); // na system dwójkowy (binarny)
+// 255.toString(16); // żle 
+// 255..toString(16);  //dobrze
+// na system szesnastkowy
+
+//METOD .toExponential() - jawna zamiana na notację naukową (też jako string)
+newNumber.toExponential()
+//przy okazji pierwszeństwo działań warto zobaczyć
+// typeof newNumber.toExponential()
+// newNumber.toExponential() == newNumber.toExponential()
+
+// FUNKCJE, które pozwalają zrobić rózne zadania z liczbami
+
+// sprawdzenie czy jest liczbą całkowitą
+Number.isInteger(decimalExample) //false, bo 100.212 (wcześniej zadeklarowaliśmy i zainiclalizowaliśmy tą zmieną)
+Number.isInteger(100.1) //false
+Number.isInteger(integerExample) //true
+Number.isInteger(28001) //true
