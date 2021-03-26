@@ -50,3 +50,16 @@ Number.isInteger(decimalExample) //false, bo 100.212 (wcześniej zadeklarowaliś
 Number.isInteger(100.1) //false
 Number.isInteger(integerExample) //true
 Number.isInteger(28001) //true
+
+const integerExample2 = 100.00
+Number.isInteger(integerExample2) //true, nawet jak jest ułamek dzieisętny ale tylko w zapisie
+
+// Sprawdzenie czy dana liczba jest skończona (prawidłowa)
+Number.isFinite(2); //true
+Number.isFinite(NaN); //false
+Number.isFinite(Infinity); //false
+Number.isFinite(1e400); //false, ponieważ maksymalna liczba to 1e308, najmniejsza liczba -1e308
+Number.isFinite(3e300); //true
+
+//NaN - wartość typu number, ale o nie rozpoznanej wartości (Not a Number). Liczba, która nie jest liczbą. np gdy number mnożymy przez string
+typeof NaN; //number
