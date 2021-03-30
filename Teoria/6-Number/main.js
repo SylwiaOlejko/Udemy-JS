@@ -17,7 +17,7 @@ console.log(5e2)
 //5 i 10 do potęgi drugiej
 
 // Przykładowe metody, które możemy wykonać na liczbie
-const newNumber = 123.45;
+const newNumber = 123.45; //zmienna
 
 // METODA .toFixed(), czyli zaokrągelnie
 // zaokrąglenie do liczby całkowitej (od 5 zaokrągla wzwyż, poniżej 5 w dół)
