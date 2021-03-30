@@ -119,9 +119,9 @@ String(200);
 // oczywiście najczęsciej konwertujemy odwołujace się do zmiennej, a nie bezpośrednio liczbę
 
 // Również parseInt() pozwala nam zmienić stringa w number. Najpierw podajemy string (w którym jest liczba) a potem możemy powiedzieć w jakim jest systemie. Wynikiem działania funkcji będzie number w zapisie dziesiętnym
-parseInt('20', 10) //20
-parseInt('100', 2) //4
-parseInt('0xff', 16) //255
+parseInt('20', 10) //20 - system dziesiętny
+parseInt('100', 2) //4 -system dwójkowy
+parseInt('0xff', 16) //255 - system szesnastkowy
 // Druga wartość jest niepotrzebna jeśli chcemy uzyskać wartość dziesiętną
 parseInt('100') //100
 parseInt('200') //200
