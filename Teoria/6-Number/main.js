@@ -40,7 +40,7 @@ newNumber.toString(2); // na system dwójkowy (binarny)
 //METOD .toExponential() - jawna zamiana na notację naukową (też jako string)
 newNumber.toExponential()
 //przy okazji pierwszeństwo działań warto zobaczyć
-// typeof newNumber.toExponential()
+// typeof newNumber.toExponential() // type of  jest operatorem
 // newNumber.toExponential() == newNumber.toExponential()
 
 // FUNKCJE, które pozwalają zrobić rózne zadania z liczbami
