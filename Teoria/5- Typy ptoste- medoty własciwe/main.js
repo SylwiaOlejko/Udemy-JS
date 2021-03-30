@@ -45,8 +45,9 @@ name.length; //właściwość której nie ma w typie prostym, i teraz zaczyna pr
 /* Reasumując: Jeżeli wywołujemy metody, czy chcemy dostać sie do zawartości własciwości, to w tle tworzony jest tymaczowy obiekt danego typu, który "opakowuje" nasz typ prosty na czas dotarcia do właściwości czy wywowłania metody.*/
 
 // Możemy też tworzyć takie obiekty sami (abstachując już od opakowania typów prostych). Ale bardzo rzadko ma to sens, ponieważ takie obiekty mają częstoi inne zachowania niż typy proste np. każdy obiekt zwraca np. true, a operator typeof zwróci "object", a nie rodzaj typu prostego. problemy pojawią się także przy operatorze porównania "==="). Tworzenie obektu (String, Number, Boolean) jest trudniejsze niż prosty literał.
-const userName = new String("Jagienka");
+const userName = new String("Jagienka"); 
 const userID = new Number(2);
 const famale = new Boolean(true);
 
-//Na przyszłość: String, Number i Boolean to przykłady konstrukturów czyli funkcji, które są używane do tworzenie instancji (niezależnej kopii) obiektów. Operator "new" tworzy nowy obiekt. Na tym etapie nie masz jeszcze szans tego zrozumieć, to zaawasnowany koncept programowania w JS, ale kiedy dojdziemy do programowania obiektowego będę to dobrze wyjaśniał i zrozumiesz ten mechanizm.  
+//Na przyszłość: String, Number i Boolean to przykłady konstrukturów czyli funkcji, które są używane do tworzenie instancji (niezależnej kopii) obiektów. Operator "new" tworzy nowy obiekt. Na tym etapie nie masz jeszcze szans tego zrozumieć, to zaawasnowany koncept programowania w JS, ale kiedy dojdziemy do programowania obiektowego będę to dobrze wyjaśniał i zrozumiesz ten mechanizm. 
+
