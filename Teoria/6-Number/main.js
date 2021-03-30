@@ -41,7 +41,8 @@ newNumber.toString(2); // na system dwójkowy (binarny)
 newNumber.toExponential()
 //przy okazji pierwszeństwo działań warto zobaczyć
 // typeof newNumber.toExponential() // type of  jest operatorem
-// newNumber.toExponential() == newNumber.toExponential()
+// newNumber.toExponential() == newNumber.toExponential() //operator sie wykona, jeśli wykonaja się metody
+
 
 // FUNKCJE, które pozwalają zrobić rózne zadania z liczbami
 
