@@ -21,7 +21,7 @@ const newNumber = 123.45; //zmienna
 
 // METODA .toFixed(), czyli zaokrągelnie
 // zaokrąglenie do liczby całkowitej (od 5 zaokrągla wzwyż, poniżej 5 w dół)
-newNumber.toFixed();
+newNumber.toFixed(); //tyle ile miejsc po przecinku wpiszemy w nawias, tyle nam zaokrągli
 // zaokrąglenie do jednego miejsca po przecinku
 newNumber.toFixed(1);
 // problem jeśli pracuejmy bezpośrednio na liczbie
