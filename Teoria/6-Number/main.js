@@ -26,7 +26,7 @@ newNumber.toFixed(); //tyle ile miejsc po przecinku wpiszemy w nawias, tyle nam 
 newNumber.toFixed(1);
 // problem jeśli pracuejmy bezpośrednio na liczbie
 // 123.toFixed(0);
-123..toFixed(0);
+123..toFixed(0); //liczba i pierwsza kropka oznacza pierwsze miejsce po przecinku, w takim wypadku trzeba postawić drugą kropkę aby zakończyć liczbę
 
 // Ważne: po zaokrągleniu metoda toFixed zwraca wartość, która jest stringiem
 
