@@ -55,7 +55,7 @@ Number.isInteger(28001) //true
 const integerExample2 = 100.00
 Number.isInteger(integerExample2) //true, nawet jak jest ułamek dzieisętny ale tylko w zapisie
 
-// Sprawdzenie czy dana liczba jest skończona (prawidłowa)
+// Sprawdzenie czy dana liczba jest skończona (prawidłowa) (czy jest nieskończona, czy format jest rozpoznawalny i prawidłowy)
 Number.isFinite(2); //true
 Number.isFinite(NaN); //false
 Number.isFinite(Infinity); //false
