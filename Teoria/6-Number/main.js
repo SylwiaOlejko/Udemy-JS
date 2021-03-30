@@ -82,9 +82,9 @@ console.log(20 % 2) //0
 // console.log(20 % 21) //20
 
 // Potęgowanie
-2 ** 8
-2 * 8
-2 / 8
+2 ** 8 //- potęgowanie
+2 * 8 //- mnozenie
+2 / 8 //-dzielenie 
 //Operatory dwuargumentowe (argumenty to operandy)
 
 
