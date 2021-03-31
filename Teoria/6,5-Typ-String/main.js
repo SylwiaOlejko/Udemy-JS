@@ -59,7 +59,7 @@ userName + ' - fajne imię!';
 
 // Który indeks ma dany znak (i czy występuje)
 userName.indexOf('d') //pierwszy pasujący znak zwraca, właściwie jego indeks, chyba że nie ma to -1 (wielkość liter ma znaczenie)
-userName.lastIndexOf('d') //to samo ale nie do końca
+userName.lastIndexOf('d') //to samo ale szukanie od końca
 
 //Czy dany znak występuje w danym łańcuchu
 userName.includes('O');
