@@ -50,7 +50,9 @@ userName.charAt(2);
 userName[2];
 userName['2'];
 
-userName.concat(" - fajne imię!")
+//Łączenie stringowe
+
+userName.concat(" - fajne imię! " , " i super!")
 //alternatywnie, bo robi to samo, możemy użyć operatora dodawania na stringu, mamy wtedy konkatencje (concatenation)
 userName + ' - fajne imię!';
 `${userName} - fajne imię`; // Nowy sposób - jeszcze omówimy (tzw. super string czy łańcuch szblonowy)
