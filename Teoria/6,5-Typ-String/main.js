@@ -73,3 +73,14 @@ const repeatString = "word".repeat(5);
 
 // Zwróć fragment łańcucha. Jako pierwszy argument gdzie ma zacząć, jako drugi gdzie ma skończyć (bez tego). Łiczba, którą podajemy jest indeksem
 const slideWord = userName.slice(1,2); // od drugiego znaku (bo mamy indeks 1) do trzeciego znaku (ale bez niego). Czyli zwróci nam tylko drugi znak
+
+
+//konkretna litera zwrócona
+const character = "litery".charAt(2) // zwraca literę (liczone o 0)
+
+//cudzysłowy w środku stringa
+//const singleQuoteExample = 'i'm Magda'
+//const singleQuoteExample = "i'm Magda"
+const singleQuoteExample = 'i\'m Magda' //(\) backslash to ten drugi to (/) forward slash
+// const slash = 'ktoś\\cos'
+const longText = 'tekst \n tekst'
