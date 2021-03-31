@@ -71,3 +71,5 @@ const afterTrim = "   słowo   ".trim()
 // Skopiuj łańcuch tyle razy ile podamy w argumencie
 const repeatString = "word".repeat(5);
 
+// Zwróć fragment łańcucha. Jako pierwszy argument gdzie ma zacząć, jako drugi gdzie ma skończyć (bez tego). Łiczba, którą podajemy jest indeksem
+const slideWord = userName.slice(1,2); // od drugiego znaku (bo mamy indeks 1) do trzeciego znaku (ale bez niego). Czyli zwróci nam tylko drugi znak
