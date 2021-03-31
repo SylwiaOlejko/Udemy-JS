@@ -28,3 +28,14 @@ const emptyObjectString2 = new String();
 const stringExample = new String ("dasdas");
 const stringExample2 = new String (200.2); //"200.2"
 
+// METODY  dla typu string
+userName.toUpperCase();
+userName.toLowerCase();
+//console.log(userName.toUpperCase());
+//console.log(userName)
+
+const userNameUpperCase = userName.toUpperCase();
+
+// metody - coś robią
+// właściwości - coś zawierają 
+
