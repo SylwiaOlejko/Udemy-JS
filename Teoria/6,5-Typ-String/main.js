@@ -48,4 +48,5 @@ userName['length']; // ten sposob okreslamy noracją tablicową czy notacją z n
 // Pobranie konkretnego znaku
 userName.charAt(2);
 userName[2];
+userName['2'];
 
