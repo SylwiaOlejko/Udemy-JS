@@ -79,8 +79,31 @@ const slideWord = userName.slice(1,2); // od drugiego znaku (bo mamy indeks 1) d
 const character = "litery".charAt(2) // zwraca literę (liczone o 0)
 
 //cudzysłowy w środku stringa
-//const singleQuoteExample = 'i'm Magda'
+//const singleQuoteExample = 'i'm Magda' // nie można użyć takiego samego cudzysłowa  w środku jak do otwarcia
 //const singleQuoteExample = "i'm Magda"
 const singleQuoteExample = 'i\'m Magda' //(\) backslash to ten drugi to (/) forward slash
 // const slash = 'ktoś\\cos'
 const longText = 'tekst \n tekst'
+
+
+//konwersja innego typu na stringa
+String(1000000) //"1000000"
+
+// Druga metoda .toString którą możemy zmienić typ number na string
+200..toString()
+
+//można też wskazać na jaki system ma zmienić (domyślnie system dziesiętny)
+200..toString(16)
+
+// Sztuczka z wykorzystaniem niejawnej konwersji
+"" + 200; // "200"
+"" + true // "true"
+
+//Zapamiętaj takze o właściwościach string związanych z typem boolean i konwersji string na boolean:
+
+
+// - Pusty string ("") jest zaminiany na wartość falce
+// - String z jakimś znakiem(znakami) w srodku jest zamieniany na true
+Booleam() // konwersja na wartość typu Boolean. Funkcja Boolean działa podobmnie jak znane już String i Number (tylko zmienia na inny typ) 
+// console.log(Boolean(emptyString)) //false
+// console.log(Boolean(emptyObjectString)) //true
