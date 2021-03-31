@@ -9,3 +9,6 @@
 const userName = "Tomasz Niewierny";
 const userName2 = 'Miszko Pierwszy'
 const userName3 = `Jaś Fasola` // super string od ES6 - innym razem bedzie na ten temat  materiał 
+
+// Możliwośc pobrania konkretnego znaku wg indeksu (pierwsza litera ma indeks 0)
+const secondLetter = userName[1]; // jak z  tablicy - poznasz przy tablicy
