@@ -57,10 +57,13 @@ userName.concat(" - fajne imię! " , " i super!")
 userName + ' - fajne imię!';
 `${userName} - fajne imię`; // Nowy sposób - jeszcze omówimy (tzw. super string czy łańcuch szblonowy)
 
-// Który indeks ma dany znak (i czy występuje)
+// Który indeks ma dany znak (i czy występuje), zwraca nam w którym miejscu jest dana litera/znak
 userName.indexOf('d') //pierwszy pasujący znak zwraca, właściwie jego indeks, chyba że nie ma to -1 (wielkość liter ma znaczenie)
 userName.lastIndexOf('d') //to samo ale szukanie od końca
 
-//Czy dany znak występuje w danym łańcuchu
-userName.includes('O');
-userName.includes('o');
+//Czy dany znak występuje w danym łańcuchu, zwraca czy są takie litery
+userName.includes('O'); //false
+userName.includes('o'); //true
+
+//Pozbądź sie białych znaków na początku i na końcu łańcucha
+const afterTrim = "   słowo   ".trim()
