@@ -25,3 +25,6 @@ const emptyString = "";
 const emptyObjectString = new Object("");
 const emptyObjectString2 = new String();
 
+const stringExample = new String ("dasdas");
+const stringExample2 = new String (200.2); //"200.2"
+
