@@ -56,3 +56,11 @@ userName.concat(" - fajne imię! " , " i super!")
 //alternatywnie, bo robi to samo, możemy użyć operatora dodawania na stringu, mamy wtedy konkatencje (concatenation)
 userName + ' - fajne imię!';
 `${userName} - fajne imię`; // Nowy sposób - jeszcze omówimy (tzw. super string czy łańcuch szblonowy)
+
+// Który indeks ma dany znak (i czy występuje)
+userName.indexOf('d') //pierwszy pasujący znak zwraca, właściwie jego indeks, chyba że nie ma to -1 (wielkość liter ma znaczenie)
+userName.lastIndexOf('d') //to samo ale nie do końca
+
+//Czy dany znak występuje w danym łańcuchu
+userName.includes('O');
+userName.includes('o');
