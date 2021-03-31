@@ -67,3 +67,7 @@ userName.includes('o'); //true
 
 //Pozbądź sie białych znaków na początku i na końcu łańcucha
 const afterTrim = "   słowo   ".trim()
+
+// Skopiuj łańcuch tyle razy ile podamy w argumencie
+const repeatString = "word".repeat(5);
+
