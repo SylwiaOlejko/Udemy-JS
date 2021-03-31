@@ -36,6 +36,16 @@ userName.toLowerCase();
 
 const userNameUpperCase = userName.toUpperCase();
 
-// metody - coś robią
+// metody - coś robią Metody wywołujemy ( )
 // właściwości - coś zawierają 
+
+
+// Metody i właściwości, które warto znać
+// właściwość zawierająca długośc łancucha, przy okazji zobaczymy, że do właściwości nm
+userName.length; // notacja kropkowa
+userName['length']; // ten sposob okreslamy noracją tablicową czy notacją z nawiasami
+
+// Pobranie konkretnego znaku
+userName.charAt(2);
+userName[2];
 
