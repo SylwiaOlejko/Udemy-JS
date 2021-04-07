@@ -88,6 +88,7 @@ true || true // true
 */
 
 
+
 // Konwersja w drugą stronę - z boolean na inny typ (number i string)
 Number(true); //1
 Number(false); //0
