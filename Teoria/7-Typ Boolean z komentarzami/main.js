@@ -49,8 +49,10 @@ const userName2 = "";
 let userAge = 22;
 let userMoney = 10.2;
 let beerPrice = 11;
+
 // warunek
-(userAge >= 18 && userMoney > beerPrice)
+(userAge >= 18 && userMoney > beerPrice) //&& - oznacza, że warunek po lewej i prawej musi być prawdziwy
+
 
 // console.log(userAge > 18 && userMoney > beerPrice);
 
