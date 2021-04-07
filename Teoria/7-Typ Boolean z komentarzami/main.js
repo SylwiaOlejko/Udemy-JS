@@ -21,10 +21,11 @@ undefined;
 //większy/mniejszy porównanie
 2 > 4; // false
 6 >= 5; // true
-2 == 2; //true
+2 == 2; //true - operator porównania
 "1" == true; //konwersja na number a potem porównanie
 "1" === true; //false
 "1" === 1; //false
+//true zamienia się na 1 a false zamienia się na 0
 
 // Negacja logiczna - zamień na typ logiczny (jesli nie jest) i odwróc
 !false; //true
