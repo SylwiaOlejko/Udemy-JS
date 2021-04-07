@@ -33,7 +33,8 @@ undefined;
 !200; //false
 !true; //false
 
-// podwójna negacja
+// podwójna negacja - po pierwsze zamienia/ odwraca, a drugi wykrzyknik odwraca z powrotem. Jak światło włącz i wyłącz i wychodzimy z taka samą wartością początkową
+
 !!true
 !!0
 !!""
