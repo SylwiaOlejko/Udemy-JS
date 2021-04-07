@@ -11,7 +11,7 @@ Boolean("") //false - jeśli damy spację to system odczyta to jako znak i da na
 
 // Wartości, które są konwertowane na false:
 ""; //pusty string, oczywiście też '' i ``
-0; //też -0
+0; //też -0 zwróci nam false
 NaN;
 null;
 undefined;
