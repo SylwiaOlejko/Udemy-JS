@@ -7,7 +7,7 @@ Boolean(2 >= 2) //true
 Boolean("coś") //true
 Boolean({}) //true
 Boolean(["ktoś", 100, false]) //true
-Boolean("") //false
+Boolean("") //false - jeśli damy spację to system odczyta to jako znak i da nam true
 
 // Wartości, które są konwertowane na false:
 ""; //pusty string, oczywiście też '' i ``
