@@ -89,6 +89,9 @@ false || false  //false
 true || false // true
 false || true // true
 true || true // true
+
+warunek bedzie prawdziwy jesli jeden z warunkow bedzie spełniony lub dwa, jak oba warunki nie beda spełnione to dostaniemy false
+
 */
 
 
