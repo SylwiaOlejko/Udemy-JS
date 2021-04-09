@@ -5,8 +5,9 @@
 //Przykład
 const condition =2;
 if (condition) {
-    //alert("działa!");
+    
     console.log("widzisz mnie, poniewaz warunek jest prawdziwy i wykonuje zawartość bloku instrukcji warunkowej");
+    alert("działa!");
 }
 
 //Kod w bloku jest uruchomiony TYLKO WTEDY gdy warunek jest prawdziwy. Jeśli nie jest prawdziwy to blok jest pomijany ({} - pomijany)
