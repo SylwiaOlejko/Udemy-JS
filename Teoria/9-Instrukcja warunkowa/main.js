@@ -70,4 +70,25 @@ if (age <= 9 && typeof age === "number") {
  console.log("Jesteś dojrzałem człowiekiem i doceniasz zalety tego wieku lub nie mogę ustalić twoejgo wieku")
 }
 
+// INSTRUKCJA WARUNKOWA SWITCH
+//Czasami bardziej przejrzysta niż instrukcja if bedzie instrukcja switch, która tworzy drzewko z możliwymi opcjami. 
+
+const dayOfTheWeek = "środa"
+
+// jako argument podajemy wartość, którą będziemy porównywać.
+switch (dayOfTheWeek) {
+ //po case podajemy wartość do porównania z argumentem instrukcji
+ case "poniedziałek":
+  console.log("dziś poniedziałek");
+  break;
+ case "wtorek":
+  console.log("dziś wtorek");
+  break;
+ case "środa":
+  console.log("dziś środa");
+  break;
+ default:
+  console.log("nie ma pojęcia co to za dzień");
+  break;
+}
 
