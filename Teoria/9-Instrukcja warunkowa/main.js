@@ -39,3 +39,33 @@ if (hasTicket && moreThen15Years || bossFamily) {
 }
 
 // else wykonuje się tylko w wypadku gdy warunek if nie jest prawdą. Jeśli jest prawdą to else jest pomijany.
+
+// KLAUZULA ELSE IF
+const age = "20";
+
+// Tak nie powinniśmy - bo to są osobne instrukcje sprawdzane za każdym razem oddzielnie.
+
+if (age <= 9) {
+ console.log("jesteś jeszcze dzieckiem")
+}
+if (age > 9 && age <= 18) {
+ console.log("jesteś młodzieżą")
+}
+if (age > 18 && age <= 70) {
+ console.log("cały świat przed Tobą")
+}
+if (age > 70) {
+ console.log("Jesteś dojrzałem człowiekiem i doceniasz zalety tego wieku")
+}
+
+// Trudniej pomylić warunek i zdecydowanie lepiej zoptymalizowane
+
+if (age <= 9 && typeof age === "number") {
+ console.log("jesteś jeszcze dzieckiem")
+} else if (age <= 18 && typeof age === "number") {
+ console.log("jesteś młodzieżą")
+} else if (age <= 70 && typeof age === "number") {
+ console.log("cały świat przed Tobą")
+} else {
+ console.log("Jesteś dojrzałem człowiekiem i doceniasz zalety tego wieku lub nie mogę ustalić twoejgo wieku")
+}
