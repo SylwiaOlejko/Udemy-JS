@@ -69,3 +69,5 @@ if (age <= 9 && typeof age === "number") {
 } else {
  console.log("Jesteś dojrzałem człowiekiem i doceniasz zalety tego wieku lub nie mogę ustalić twoejgo wieku")
 }
+
+
