@@ -92,3 +92,30 @@ switch (dayOfTheWeek) {
   break;
 }
 
+// OPERATOR WARUNKOWY / OPERATOR POTRÓJNY (TRÓJKOWY)
+
+// Prostą instrukcję warunkąwą if...else możemy napisać za pomocą operatora.
+
+/* 
+a ? b : c;
+warunek ? wykonaj mnie jesli warunek true : wykonaj mnie jeśli warunek false
+*/
+const score = 100
+20 == "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo warunek nie jest prawdziwy");
+
+score > 120 ? console.log("prawda") : console.log("fałsz");
+
+// Z instrukcji warunkowej nie można przechwycić wartości i przypisać jej do zmiennej. A w pewnych sytuacjach chcemy to zrobić.
+// Operator warunkowy zwraca wartość (jako to operatory) i jest używany często gdy do zmiennej chcemy przypisać wynik działania
+
+// Przykład zwracania wartości - instrukcji warunkowej if tak nie użyjemy
+// console.log(1 > 10 ? 1 : 0)
+
+let gameResult = 0;
+let killedMonsters = 9
+let score = killedMonsters > 10 ? 1 : 0;
+
+
+const playerName = "Mściowej";
+console.log(`Witaj ${playerName ? playerName : "nieznajomy wojowniku"}`)
+
