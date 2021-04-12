@@ -45,6 +45,8 @@ const age = "20";
 
 // Tak nie powinniśmy - bo to są osobne instrukcje sprawdzane za każdym razem oddzielnie.
 
+
+
 if (age <= 9) {
  console.log("jesteś jeszcze dzieckiem")
 }
@@ -57,6 +59,7 @@ if (age > 18 && age <= 70) {
 if (age > 70) {
  console.log("Jesteś dojrzałem człowiekiem i doceniasz zalety tego wieku")
 }
+
 
 // Trudniej pomylić warunek i zdecydowanie lepiej zoptymalizowane
 
