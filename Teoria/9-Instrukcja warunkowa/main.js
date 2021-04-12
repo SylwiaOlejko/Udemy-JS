@@ -122,3 +122,4 @@ let score = killedMonsters > 10 ? 1 : 0;
 const playerName = "Mściowej";
 console.log(`Witaj ${playerName ? playerName : "nieznajomy wojowniku"}`)
 
+//dokończyc robić ten dział
