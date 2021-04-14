@@ -32,7 +32,7 @@ const hasTicket = true;
 const moreThen15Years = true;
 const bossFamily = false;
 
-if (hasTicket && moreThen15Years || bossFamily) {
+if (hasTicket && moreThen15Years || bossFamily) { // trzeba spełnić oba warianty z lewej strony lub trzeba spełnic prawa strone
  console.log("wchodzisz");
 } else {
  console.log("przykro mi");
