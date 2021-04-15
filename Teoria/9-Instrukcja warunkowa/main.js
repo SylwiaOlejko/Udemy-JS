@@ -63,6 +63,8 @@ if (age > 70) {
 
 // Trudniej pomylić warunek i zdecydowanie lepiej zoptymalizowane
 
+
+
 if (age <= 9 && typeof age === "number") {
  console.log("jesteś jeszcze dzieckiem")
 } else if (age <= 18 && typeof age === "number") {
