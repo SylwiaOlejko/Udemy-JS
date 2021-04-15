@@ -36,7 +36,7 @@ if (hasTicket && moreThen15Years || bossFamily) { // trzeba spełnić oba warian
  console.log("wchodzisz");
 } else {
  console.log("przykro mi");
-}
+ }
 
 // else wykonuje się tylko w wypadku gdy warunek if nie jest prawdą. Jeśli jest prawdą to else jest pomijany.
 
