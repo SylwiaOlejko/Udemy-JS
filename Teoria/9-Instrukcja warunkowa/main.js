@@ -28,6 +28,8 @@ if (userName !== "") {
 }
 
 // INSTRUKCJA WARUNKOWA ELSE (IF...ELSE)
+
+
 const hasTicket = true;
 const moreThen15Years = true;
 const bossFamily = false;
@@ -76,6 +78,8 @@ if (age <= 9 && typeof age === "number") {
 }
 
 // INSTRUKCJA WARUNKOWA SWITCH
+
+
 //Czasami bardziej przejrzysta niż instrukcja if bedzie instrukcja switch, która tworzy drzewko z możliwymi opcjami. 
 
 const dayOfTheWeek = "środa"
