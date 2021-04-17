@@ -56,3 +56,11 @@ const popularName = nameList[2];
 // TWORZENIE NOWYCH ELEMENTÓW I MODYFIKOWANIE ISTNIEJĄCYCH W TABLICY
 // Za pomocą indeksu, przypisujemy wartość (jeśli dany indeks isteniej to zamieniamy)
 // nameList[5] = "Nowe imię";
+
+
+// USUWANIE ELEMENTÓW Z TABLICY
+// delete zastępuję wartość aktualną wartością undefined. Nie zmienia więc wielkości tablioct
+delete nameList[2];
+typeof nameList[2];  //"undefined"
+// Są metody, które mogą usunąć element i usunać też indeks (a więc skrócić tablicę)
+
