@@ -74,3 +74,24 @@ cities.length;
 
 const users = ["Adam", "Ania"];
 users.length;
+
+
+// WYKORZYSTANIE DŁUGOŚCI TABLICY
+// szybkie tworzenie długiej tablicy
+const longArray = [];
+longArray.length = 100;
+
+// odwołanie się do ostatniego elementy
+cities[cities.length - 1];
+
+// dodanie kolejnego elementu (jako ostatniego)
+cities[cities.length] = "Tokio";
+cities[cities.length] = "Pekin";
+
+// powiększenie, zmniejszenie, wyzerowanie tablicy
+// users.length = 20;
+cities.length += 2;
+// cities.length = cities.length + 2;
+// cities.length = 3;
+users.length = 0; //i tablica pusta
+
