@@ -45,3 +45,9 @@ myArrayLet[0] = "pierwszy let";
 
 const differentValues = ["string", 20, {}, ["jeden", "dwa"], null]
 
+// ODWOŁANIE DO ELEMENTÓW TABLICY
+// używamy indeksu. Indeks od zera i w nawiasach kwadratowych
+// console.log(nameList[1]);
+const popularName = nameList[2];
+// nameList[4] = "Witomysł";
+// nameList[2] === "Gniewomir";
