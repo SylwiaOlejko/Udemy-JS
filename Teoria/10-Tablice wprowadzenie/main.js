@@ -105,3 +105,14 @@ cities instanceof Object;
 cities instanceof Function;
 
 Array.isArray(cities);
+
+
+// DEREFERENCJA OBIEKTU (NIE TYLKO TABLICY)
+
+let letters = ["a", "d"]
+let characters = letters; //ta sama tablica, obie zmienne mają tylko referencje (link do tablicy)
+
+// Tablica (i inny obiekt) zostanie usunięta jeśli nie ma do niej referencji;
+// letters = null;
+// characters = null;
+letters = characters = null;
