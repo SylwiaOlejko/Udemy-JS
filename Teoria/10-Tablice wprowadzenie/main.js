@@ -7,7 +7,7 @@
 
 // TWORZENIE TABLICY
 
-// Literał tablicy z podaniem zawartości
+// Literał tablicy z podaniem zawartości [ ]
 
 const nameList = ["Ludomir", "Żyrosław", "Gniewomir", "Myślimir"];
 
@@ -38,4 +38,10 @@ let myArrayLet = [];
 myArrayConst[0] = "pierwszy const";
 myArrayLet[0] = "pierwszy let";
 // myArrayConst = "coś innego";
-// myArrayLet = "coś innego";
+//myArrayLet = "coś innego";
+
+// CO MOŻE ZAWIERAĆ TABLICA
+// Każdą inną wartośc
+
+const differentValues = ["string", 20, {}, ["jeden", "dwa"], null]
+
