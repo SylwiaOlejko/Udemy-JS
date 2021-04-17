@@ -51,3 +51,8 @@ const differentValues = ["string", 20, {}, ["jeden", "dwa"], null]
 const popularName = nameList[2];
 // nameList[4] = "Witomysł";
 // nameList[2] === "Gniewomir";
+
+
+// TWORZENIE NOWYCH ELEMENTÓW I MODYFIKOWANIE ISTNIEJĄCYCH W TABLICY
+// Za pomocą indeksu, przypisujemy wartość (jeśli dany indeks isteniej to zamieniamy)
+// nameList[5] = "Nowe imię";
