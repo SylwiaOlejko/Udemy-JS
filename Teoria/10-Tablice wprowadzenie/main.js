@@ -116,3 +116,16 @@ let characters = letters; //ta sama tablica, obie zmienne mają tylko referencje
 // letters = null;
 // characters = null;
 letters = characters = null;
+
+
+
+
+// CIEKAWOSTKA - stworzenie wielu zmiennych w oparciu o zawartość tablicy (i obiektu)
+// Destructuring Arrays - Przypisanie destrukturyzujące 
+// Wykorzystujemy tablicę do tworzenia nowych zmiennych.
+
+const [nameUser, idUser, ageUser] = ["Sławoj", 210, 54];
+
+const game = [120.12, 87, "dobry wujek"];
+
+let [time, points, name] = game;
