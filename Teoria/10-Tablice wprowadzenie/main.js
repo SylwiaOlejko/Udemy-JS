@@ -113,9 +113,9 @@ let letters = ["a", "d"]
 let characters = letters; //ta sama tablica, obie zmienne mają tylko referencje (link do tablicy)
 
 // Tablica (i inny obiekt) zostanie usunięta jeśli nie ma do niej referencji;
-// letters = null;
-// characters = null;
-letters = characters = null;
+//letters = null; // jeśli zmienimy na null to zerwiemy połączenie danego obiektu
+// characters = null; // jesli chcemy odłączyc całkiem tablice to trzeba wszystkie zmienne zmienic na null, wtedy tablica zostanie usunięta z kodu
+//letters = characters = null;
 
 
 
