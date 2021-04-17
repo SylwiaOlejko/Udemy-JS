@@ -95,3 +95,13 @@ cities.length += 2;
 // cities.length = 3;
 users.length = 0; //i tablica pusta
 
+// SPRAWDZENIE CZY TO JEST TABLICA
+
+typeof users; //'object'
+
+cities instanceof String;
+cities instanceof Array;
+cities instanceof Object;
+cities instanceof Function;
+
+Array.isArray(cities);
