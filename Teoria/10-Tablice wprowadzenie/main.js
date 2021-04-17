@@ -58,9 +58,19 @@ const popularName = nameList[2];
 // nameList[5] = "Nowe imię";
 
 
+
+
 // USUWANIE ELEMENTÓW Z TABLICY
 // delete zastępuję wartość aktualną wartością undefined. Nie zmienia więc wielkości tablioct
 delete nameList[2];
 typeof nameList[2];  //"undefined"
 // Są metody, które mogą usunąć element i usunać też indeks (a więc skrócić tablicę)
 
+
+
+// DŁUGOŚĆ TABLICY - WŁAŚCIWOŚĆ LENGTH
+const cities = ["Poznań", "Kraków", "Berlin", "Londyn", "Nowy Jork", "Warszawa"];
+cities.length;
+
+const users = ["Adam", "Ania"];
+users.length;
