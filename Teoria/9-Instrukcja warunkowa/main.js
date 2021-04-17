@@ -114,8 +114,10 @@ const score = 100
 
 score > 120 ? console.log("prawda") : console.log("fałsz");
 
-// Z instrukcji warunkowej nie można przechwycić wartości i przypisać jej do zmiennej. A w pewnych sytuacjach chcemy to zrobić.
-// Operator warunkowy zwraca wartość (jako to operatory) i jest używany często gdy do zmiennej chcemy przypisać wynik działania
+// Z instrukcji warunkowej nie można przechwycić wartości i przypisać jej do 
+//zmiennej. A w pewnych sytuacjach chcemy to zrobić.
+// Operator warunkowy zwraca wartość (jako to operatory) i jest używany często
+//gdy do zmiennej chcemy przypisać wynik działania
 
 // Przykład zwracania wartości - instrukcji warunkowej if tak nie użyjemy
 // console.log(1 > 10 ? 1 : 0)
@@ -128,5 +130,4 @@ let score = killedMonsters > 10 ? 1 : 0;
 const playerName = "Mściowej";
 console.log(`Witaj ${playerName ? playerName : "nieznajomy wojowniku"}`)
 
-//dokończyc robić ten dział
-//prowadzić notatki działu w systemie 
+// $ - wstrzyka w js czysty kod
