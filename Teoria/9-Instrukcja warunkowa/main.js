@@ -47,7 +47,7 @@ const age = "20";
 
 // Tak nie powinniśmy - bo to są osobne instrukcje sprawdzane za każdym razem oddzielnie.
 
-// zagnieżdżenie if
+
 
 if (age <= 9) {
  console.log("jesteś jeszcze dzieckiem")
