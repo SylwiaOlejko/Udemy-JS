@@ -78,6 +78,7 @@ users.length;
 
 // WYKORZYSTANIE DŁUGOŚCI TABLICY
 // szybkie tworzenie długiej tablicy
+
 const longArray = [];
 longArray.length = 100;
 
