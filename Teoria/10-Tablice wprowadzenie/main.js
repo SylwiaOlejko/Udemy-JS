@@ -76,6 +76,7 @@ const users = ["Adam", "Ania"];
 users.length;
 
 
+
 // WYKORZYSTANIE DŁUGOŚCI TABLICY
 // szybkie tworzenie długiej tablicy
 
