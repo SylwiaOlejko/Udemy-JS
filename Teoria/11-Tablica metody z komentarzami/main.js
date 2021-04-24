@@ -62,3 +62,22 @@ const colorsCollections2 = [...redColors, ...greenColors, "morski"];
 
 /* -------------------------------- */
 const items = ["zad", "bza", "wus", "xad", "coe", "mer", "tve"]
+
+// METODA SLICE
+// zwraca nową tablicę, która składa się z części tablicy na której jest wykownywany. Jeśli damy tylko jeden argument, to będzie zwracała od tego elementu (od tego indexu) do końca
+items.slice(3);
+// drugi argument mówi, do którego elementu (index), ale bez tego elementy
+items.slice(2, 3);
+// a tak jak poniżej mozemy pobrać całą tablicę
+// items.slice(0, items.length);
+// lub
+// const newItems = items.slice(0);
+
+// Jeśli użyjemy minusa to mówimy ile od końca mamy zwrócić, w przykłądzie poniżej będzie tylko ostatni element
+items.slice(-1);
+
+//! Pamiętajmy, że slice nie wpływa na tablicę na której jest wykonywany, więc najczesciej przypiszemy zwróconą wartość do nowej zmiennej
+
+const newItems = items.slice(0, 3); //trzy pierwsze elementy
+
+/* -------------------------------- */
