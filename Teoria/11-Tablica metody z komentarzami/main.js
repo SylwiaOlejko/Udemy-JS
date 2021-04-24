@@ -117,3 +117,13 @@ const animals = ["dog", "cat", "canary", "mouse"];
 // animals.sort();
 
 /* -------------------------------- */
+
+// METODA INDEXOF
+// szuka takiego elementu w tablicy, jeśli znajdzie zwraca index tego elementu, jeśli nie zwraca -1;
+animals.indexOf('canary');
+["Arek", 22, null, 22].indexOf(22);
+["Arek", 22, null, 22].lastIndexOf(22);
+["Arek", 22, null, 22].indexOf("Are"); //-1
+
+
+/* -------------------------------- */
