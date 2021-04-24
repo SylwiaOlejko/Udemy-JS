@@ -159,3 +159,15 @@ items.join(" - 10 lat w obozie pracy; \n ");
 /* -------------------------------- */
 
 /* -------------------------------- */
+
+//METODA SPLIT, KTÓRĄ MOŻNA WYKONAĆ NA STRING, A TWORZY TABLICĘ
+const letters = "Marek Adam Justyna Teresa".split('');
+
+"Marek Adam Justyna Teresa".split(' ');
+"Gdańsk,Elbląg,Gdynia,Sopot,Władysławowo,Hel".split(',')
+ ;
+"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(',', 3);
+"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(', ', 3);
+
+const datesOfBirth = "1967,1982, 1990, 1998, 1976"
+datesOfBirth.split(',')
