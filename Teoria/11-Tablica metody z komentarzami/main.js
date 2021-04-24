@@ -127,3 +127,13 @@ animals.indexOf('canary');
 
 
 /* -------------------------------- */
+
+
+// METODA INCLUDES
+animals.includes("rat");
+animals.includes("canary");
+[20, 22, 120, 120].includes("22"); //false
+[20, 22, 120, 120].includes(120); //true
+
+
+/* -------------------------------- */
