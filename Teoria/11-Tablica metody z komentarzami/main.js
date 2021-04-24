@@ -27,7 +27,19 @@ const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Ma
 // SHIFT - Usuń pierwszy element
 // Usunięcie wartości i indeksu (nie tylko wartości)
 
-// italianUsers.shift();
-// italianUsers.shift();
-// console.log(italianUsers);
-// delete italianUsers[0] //zmiana wartości pierwszego na udenfined
+//italianUsers.shift();
+//italianUsers.shift();
+//console.log(italianUsers);
+//delete italianUsers[0] //zmiana wartości pierwszego na udenfined
+
+// CO ZWRACAJĄ TE METODY (BO OPRÓCZ TEGO, ŻE COŚ ROBIĄ /POWYŻEJ/ TO COŚ ZWRACAJĄ)
+
+// const removedLastElement = italianUsers.pop(); //metoda zwraca element (ostatni element tablicy), który został usunięty
+
+// const removedFirstElement = italianUsers.shift(); //metoda zwraca element (pierwszy element tablicy), który został usunięty.
+
+const lengthArrayAfterPush = italianUsers.push("Vito"); //metoda zwraca długoś tablicy jaką ma tablica po jej wykonaniu
+const lengthArrayAfterUnshift = italianUsers.unshift("Apollonia"); //też zwraca długoś po dodaniu
+
+
+/* ------------------------------------ */
