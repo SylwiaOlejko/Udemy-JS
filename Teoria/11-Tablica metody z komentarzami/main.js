@@ -109,3 +109,11 @@ const animals = ["dog", "cat", "canary", "mouse"];
 
 
 /* -------------------------------- */
+
+
+// METODA SORT
+//metoda destrukcyjna
+["Marek", "Zenek", "Arek"].sort();
+// animals.sort();
+
+/* -------------------------------- */
