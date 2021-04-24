@@ -81,3 +81,31 @@ items.slice(-1);
 const newItems = items.slice(0, 3); //trzy pierwsze elementy
 
 /* -------------------------------- */
+
+
+// METODA SPLICE
+// Przykład metody destrukcyjnej (destructive method, mutating method - zmianiają tablicę na której są wywyoływane)
+// Ta metoda zmienia tablice (modyfikuje) na której jest wykonywana
+const animals = ["dog", "cat", "canary", "mouse"];
+// animals.splice(1, 2); //od indeksu pierwszego (czyli 2 element) usuń 2 elementy.
+// animals.splice(2); //usunie wszystkie elmenty od index 2, łącznie z nim element (usunie index-y, a więc zmniejszy długość tablicy)
+// animals.splice(0); //wyzeruje całą tablicę
+
+
+// Metoda splice umożliwia nam też zastąpienie usunietych elementów
+
+// animals.splice(3, 1, 'hamster');
+// animals.splice(0, 2, 'fishes', 'snake');
+
+// Umożliwia nam też dodawanie nowych elementów
+
+// animals.splice(2, 0, "rat");
+// animals.splice(0, 0, "horse", "pig", "donkey");
+
+// BARDZO WAŻNE. Metod splice nie tylko wykonuje operacje na tablicy (zmienie ją), ale też zwraca wartości, kóre usuwa w formie tablicy. Więc to co usunięmy możemy wykorzystać.
+
+// const pets = animals.splice(0, 3);
+
+
+
+/* -------------------------------- */
