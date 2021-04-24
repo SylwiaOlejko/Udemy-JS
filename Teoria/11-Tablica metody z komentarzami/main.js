@@ -43,3 +43,22 @@ const lengthArrayAfterUnshift = italianUsers.unshift("Apollonia"); //też zwraca
 
 
 /* ------------------------------------ */
+
+// METODA CONCAT
+// łączenie tablic. W istocie nie tyle łaczy dwie (czy więcej) tablic, a na ich podstawie tworzy nową
+
+const redColors = ["czerwony", "zachodzącego słońca", "krwisty"];
+const greenColors = ["zielony", "trawiasty", "zielony banan"];
+
+// const redAndGreenColors = redColors.concat(greenColors);
+const redGreenBlueColors = redColors.concat(greenColors, ["morski"]);
+
+// Inny, nowy sposób (od ES6) to operator spread (operator rozwijania, operator trzech kropek)
+const colorsCollections = [...redColors, ...greenColors]; //elementy tablicy są pojedyńczo wyjęte.
+// ...redColors  - "czerwony", "zachodzącego słońca", "krwisty"
+
+const colorsCollections2 = [...redColors, ...greenColors, "morski"];
+
+
+/* -------------------------------- */
+const items = ["zad", "bza", "wus", "xad", "coe", "mer", "tve"]
