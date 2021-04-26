@@ -160,16 +160,17 @@ items.join(" - 10 lat w obozie pracy; \n ");
 
 /* -------------------------------- */
 
-/* -------------------------------- */
 
 //METODA SPLIT, KTÓRĄ MOŻNA WYKONAĆ NA STRING, A TWORZY TABLICĘ
-const letters = "Marek Adam Justyna Teresa".split('');
+const letters = "Marek Adam Justyna Teresa".split(''); // otrzymujemy coś takiego, kazdy wyraz jest rozdzielony a osobne znaki ["M", "a", "r", "e", "k", " ", "A", "d", "a", "m", " ", "J", "u", "s", "t", "y", "n", "a", " ", "T", "e", "r", "e", "s", "a"]
 
-"Marek Adam Justyna Teresa".split(' ');
-"Gdańsk,Elbląg,Gdynia,Sopot,Władysławowo,Hel".split(',')
- ;
-"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(',', 3);
-"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(', ', 3);
+"Marek Adam Justyna Teresa".split(' ');// wpisując spacje w szukanie, nassza tablica pokazuje nam zamykanie elementów po każdej spacji: (4) ["Marek", "Adam", "Justyna", "Teresa"]
+
+"Gdańsk,Elbląg,Gdynia,Sopot,Władysławowo,Hel".split(',');// przecinek pozwala nam znaleźć miejse, które pozwala nam tworzyćtą tablice
+
+ 
+"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(',', 3);//pierwszy elemento powi że ma znaleźc wszystkie przecinki i stworzyć elementy, fruga wartość mówi o ograniczeniu tablicy do 3 pól: (3) ["Gdańsk", " Elbląg", " Gdynia"]
+"Gdańsk, Elbląg, Gdynia, Sopot, Władysławowo, Hel".split(', ', 3); 
 
 const datesOfBirth = "1967,1982, 1990, 1998, 1976"
 datesOfBirth.split(',')
