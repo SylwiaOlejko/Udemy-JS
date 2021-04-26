@@ -122,8 +122,8 @@ animals.sort(); //wpisujemy to w console
 // METODA INDEXOF
 // szuka takiego elementu w tablicy, jeśli znajdzie zwraca index tego elementu, jeśli nie zwraca -1;
 animals.indexOf('canary');
-["Arek", 22, null, 22].indexOf(22);//szukamy czy w tablicy jest 22
-["Arek", 22, null, 22].lastIndexOf(22);
+["Arek", 22, null, 22].indexOf(22);//szukamy czy w tablicy jest 22, wyświetlona formuła pokazuje w ktorym indeksie jest szukany obiekt
+["Arek", 22, null, 22].lastIndexOf(22);//last oznacza szukanie od końca i wyświetla indeks
 ["Arek", 22, null, 22].indexOf("Are"); //-1
 
 
