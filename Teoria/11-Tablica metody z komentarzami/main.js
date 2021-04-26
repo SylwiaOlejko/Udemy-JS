@@ -92,6 +92,7 @@ const animals = ["dog", "cat", "canary", "mouse"];
 // animals.splice(0); //wyzeruje całą tablicę
 
 
+
 // Metoda splice umożliwia nam też zastąpienie usunietych elementów
 
 // animals.splice(3, 1, 'hamster');
@@ -113,8 +114,8 @@ const animals = ["dog", "cat", "canary", "mouse"];
 
 // METODA SORT
 //metoda destrukcyjna
-["Marek", "Zenek", "Arek"].sort();
-// animals.sort();
+["Marek", "Zenek", "Arek"].sort(); //układa sie nam alfabetycznie 
+animals.sort(); //wpisujemy to w console 
 
 /* -------------------------------- */
 
