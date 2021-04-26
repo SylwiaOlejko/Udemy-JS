@@ -142,7 +142,7 @@ animals.includes("canary");
 
 // METODA JOIN
 // Tworzy stringa z elementów, domyślnie oddzielonych przecinkiem. Możemy to jednak zmienić.
-items.join(); //string oddzielony przeciwnikem
+items.join(); //string oddzielony przeciwnikem, który pokazuje się tak: "zad,bza,wus,xad,coe,mer,tve"
 items.join(" --- ");
 //w "przyjaznym" państwie można z automatu dodawać bonusy 
 items.join(" - 10 lat w obozie pracy; \n ");
