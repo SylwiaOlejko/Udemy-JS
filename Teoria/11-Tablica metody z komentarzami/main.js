@@ -131,6 +131,7 @@ animals.indexOf('canary');
 
 
 // METODA INCLUDES
+//sprawdzamy czy dane słowo zawiera szukany przez nasz element, dostajemy odpowiedz TRUE / FALSE
 animals.includes("rat");
 animals.includes("canary");
 [20, 22, 120, 120].includes("22"); //false
