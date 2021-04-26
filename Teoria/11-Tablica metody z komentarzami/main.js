@@ -152,7 +152,7 @@ items.join(" - 10 lat w obozie pracy; \n ");
 
 // METODA REVERSE
 //metoda destrukcyjna
-//odwraca kolejność
+//odwraca kolejność tablicy, pierwszy element jest ostatni, a ostani element jest pierwszym 
 
 // items.reverse();
 ["a", 3, "z", "koniec"].reverse();
