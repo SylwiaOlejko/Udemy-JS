@@ -88,7 +88,7 @@ const newItems = items.slice(0, 3); //trzy pierwsze elementy
 // Ta metoda zmienia tablice (modyfikuje) na której jest wykonywana
 const animals = ["dog", "cat", "canary", "mouse"];
 // animals.splice(1, 2); //od indeksu pierwszego (czyli 2 element) usuń 2 elementy.
- animals.splice(2); //usunie wszystkie elmenty od index 2, łącznie z nim element (usunie index-y, a więc zmniejszy długość tablicy)
+//animals.splice(2); //usunie wszystkie elmenty od index 2, łącznie z nim element (usunie index-y, a więc zmniejszy długość tablicy)
 // animals.splice(0); //wyzeruje całą tablicę
 
 
