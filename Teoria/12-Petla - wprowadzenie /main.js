@@ -12,9 +12,10 @@
 } */
 // for - słowo kluczowe
 
-for (let i = 0; i < 10; i++) {
+/*for (let i = 0; i < 10; i++) {
     console.log("wyświetlenie " + i);
    }
+   */
    
 
    // Działanie
@@ -25,13 +26,49 @@ for (let i = 0; i < 10; i++) {
 // DALEJ: Nowa pętla od punktu 2 (inicjalizacja jest robiona tylko raz)
 
 // Tylko warunek potrzebny (choć coś takiego rzadko zrobimy). Iteracje można zrobić w pętli a iterator zainicjalizować poza nią.
-// let i = 0;
-// for (; i < 10;) {
-//  console.log(i);
-//  i++;
-// }
+let i = 0;
+for (; i < 10;) {
+console.log(i);
+i++;
+}
 
 // WHILE 
 
 // Uruchomiaj blok kodu tak długo jak warunek jest prawdziwy
 
+// Konstrukcja
+/*  
+while (warunek) {
+ blok kodu
+}
+*/
+while (false) {
+    console.log("działa");
+   }
+   // Jeśli warunek jest prawdziwy i nie jest zmieniony (lub zmieniony ale zawsze prawdziwy) to mamy nieskończoną pętle i zawieszoną przeglądarkę.
+   
+   // Przykład 1
+   // let number = 0;
+   // while (number < 10) {
+   //  number++;
+   //  console.log(number);
+   // }
+   
+   // Przykład 2
+   // let money = 100;
+   // while (money >= 8) {
+   //  console.log("Mam jeszcze " + money + " złotych. To pijemy piwko!");
+   //  money -= 8;
+   // }
+   
+   // alert(`za ${money} złote, już piwka nie kupię :((((`)
+   
+   // Przykład 3
+   // let gasoline = 40;
+   // let km = 0;
+   
+   // while (gasoline--) {
+   //  km += 18;
+   //  console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
+   // }
+   
