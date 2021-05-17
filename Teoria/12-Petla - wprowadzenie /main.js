@@ -23,3 +23,15 @@ for (let i = 0; i < 10; i++) {
 // 3 - Wykonanie kodu ( o ile warunek jest prawdziwy)
 // 4 - po wykonaniu bloku zwiększa iterator (najczęsciej o 1 za pomocą inkrementacji, ale nie jest to konieczne)
 // DALEJ: Nowa pętla od punktu 2 (inicjalizacja jest robiona tylko raz)
+
+// Tylko warunek potrzebny (choć coś takiego rzadko zrobimy). Iteracje można zrobić w pętli a iterator zainicjalizować poza nią.
+// let i = 0;
+// for (; i < 10;) {
+//  console.log(i);
+//  i++;
+// }
+
+// WHILE 
+
+// Uruchomiaj blok kodu tak długo jak warunek jest prawdziwy
+
