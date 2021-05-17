@@ -63,6 +63,7 @@ const colorsCollections2 = [...redColors, ...greenColors, "morski"];
 /* -------------------------------- */
 const items = ["zad", "bza", "wus", "xad", "coe", "mer", "tve"]
 
+
 // METODA SLICE
 // zwraca nową tablicę, która składa się z części tablicy na której jest wykownywany. Jeśli damy tylko jeden argument, to będzie zwracała od tego elementu (od tego indexu) do końca
 items.slice(3);
