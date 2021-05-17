@@ -64,13 +64,13 @@ while (false) {
    // alert(`za ${money} złote, już piwka nie kupię :((((`)
    
    // Przykład 3
-    let gasoline = 40;
-    let km = 0;
+    //let gasoline = 40;
+    //let km = 0;
    
-    while (gasoline--) {
-     km += 18;
-     console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
-    }
+    //while (gasoline--) {
+    //km += 18;
+    //console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
+    //}
    
 
     //DO...WHILE
@@ -80,3 +80,4 @@ let study = "nie, wyrzucili mnie"
 
 do {
  console.log('Idę do szkoły');
+} while (study === true);
