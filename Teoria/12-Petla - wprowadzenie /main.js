@@ -26,11 +26,11 @@
 // DALEJ: Nowa pętla od punktu 2 (inicjalizacja jest robiona tylko raz)
 
 // Tylko warunek potrzebny (choć coś takiego rzadko zrobimy). Iteracje można zrobić w pętli a iterator zainicjalizować poza nią.
-let i = 0;
-for (; i < 10;) {
-console.log(i);
-i++;
-}
+//let i = 0;
+//for (; i < 10;) {
+//console.log(i);
+//i++;
+//}
 
 // WHILE 
 
@@ -64,11 +64,19 @@ while (false) {
    // alert(`za ${money} złote, już piwka nie kupię :((((`)
    
    // Przykład 3
-   // let gasoline = 40;
-   // let km = 0;
+    let gasoline = 40;
+    let km = 0;
    
-   // while (gasoline--) {
-   //  km += 18;
-   //  console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
-   // }
+    while (gasoline--) {
+     km += 18;
+     console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
+    }
    
+
+    //DO...WHILE
+//Blok zawsze wykona się co najmniej raz. Czy będzie sie wykonywał dalej zależy od tego czy warunek będzie spełniony.
+
+let study = "nie, wyrzucili mnie"
+
+do {
+ console.log('Idę do szkoły');
