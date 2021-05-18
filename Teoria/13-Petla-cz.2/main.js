@@ -32,25 +32,25 @@
 
 //  Przykład3 - for + instrukcja warunkowe alert
 
-const guest = ["piłkarz", "kucharz", "murarz", "programista", "polityk", "pisarz", "magazynier", "emeryt"];
+// const guest = ["piłkarz", "kucharz", "murarz", "programista", "polityk", "pisarz", "magazynier", "emeryt"];
 
-for (let i = 0; i < guest.length; i++) {
+// for (let i = 0; i < guest.length; i++) {
 
- if (guest[i] === "programista") {
-  console.log("przepraszam nie ma już miejsce (nie wpuszczać, (programiści to nudziarze - tylko nie mówić) ")
- } else if (guest[i] === "polityk") {
-  console.log("Ojej jaka szkoda, nie ma już miejsc (po żadnym pozorem nie wpuszczać! Zepsują każdą imprezę)");
- } else {
-  console.log("witamy Panie " + guest[i] + ", zapraszamy!");
- }
+//  if (guest[i] === "programista") {
+//   console.log("przepraszam nie ma już miejsce (nie wpuszczać, (programiści to nudziarze - tylko nie mówić) ")
+//  } else if (guest[i] === "polityk") {
+//   console.log("Ojej jaka szkoda, nie ma już miejsc (po żadnym pozorem nie wpuszczać! Zepsują każdą imprezę)");
+//  } else {
+//   console.log("witamy Panie " + guest[i] + ", zapraszamy!");
+//  }
 
-}
+// }
 
 
 // PĘTLA FOR - OF (ES6)
 
-// const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
+const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
 
-// for (const color of colors) {
-//  console.log("mój ulubiony kolor to: " + i);
-// }
+for (const color of colors) {
+ console.log("mój ulubiony kolor to:" + color );
+}
