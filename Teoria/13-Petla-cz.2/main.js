@@ -11,18 +11,18 @@
 
 // Przykład1 wyświetlamy wiek użytkownika
 
-const usersAge = [19, 18, 15, 45, 34, 33, 25];
+// const usersAge = [19, 18, 15, 45, 34, 33, 25];
 
-for (let i = 0; i < usersAge.length; i++) {
- console.log(`użytkownik o indeksie ${i} jest w wieku ${usersAge[i]}`); // tablica [6]
+// for (let i = 0; i < usersAge.length; i++) {
+//  console.log(`użytkownik o indeksie ${i} jest w wieku ${usersAge[i]}`); // tablica [6]
 
- //console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
-}
+//  console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
+// }
 
 //  Przykład2 - obliczmy wiek użytkownika
 
-// const usersDateBirth = [2000, 1992, 1932, 1980, 1981, 1971, 2009];
-// const currentYear = 2018;
+const usersDateBirth = [2000, 1992, 1932, 1980, 1981, 1971, 2009];
+const currentYear = 2018;
 
 // for (let i = 0; i < usersDateBirth.length; i++) {
 //  const userAge = currentYear - usersDateBirth[i];
