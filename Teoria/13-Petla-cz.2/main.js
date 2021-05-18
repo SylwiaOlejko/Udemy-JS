@@ -45,3 +45,12 @@
 //  }
 
 // }
+
+
+// PĘTLA FOR - OF (ES6)
+
+const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
+
+for (const color of colors) {
+ console.log("mój ulubiony kolor to: " + i);
+}
