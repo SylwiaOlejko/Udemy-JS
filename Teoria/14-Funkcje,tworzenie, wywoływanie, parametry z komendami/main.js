@@ -157,3 +157,18 @@ const showUserName = function(userName) {
     console.log("witaj " + userName);
    }
    
+
+
+   // Argument - pojęcie użyte przy wywołaniu funkcji.
+showUserName("Franciszek");
+
+// Przykładowo w funkcji powyżej tworząć funkcję ustawiamy jeden parametr. Przy wywołaniu w miejsce parametru podajemy argument, który pełni rolę wartości dla parametru.
+
+// Jeśli nie podamy argumenty, to w jego miejsce zostanie wstawione undefined
+
+// showUserName();
+
+// Jeśli podamy więcej argumentów niż paramtrów, to nie spowoduje to błędu
+showUserName("Piotr", 200);
+
+showUserName.length; //mówi ile argumentów oczekuje funkcja (czyli ile parametrów posiadała funkcja w momencie tworzenia)
