@@ -47,4 +47,22 @@ function addNumbers(x, y) {
    function showCourseName() {
     console.log("Programowanie w JS");
    }
+
    
+   // 3. KONSTRUKTOR (Function Constructor)
+
+// Szkielet funkcji 
+// const nazwaFunkcjiCoRobi = new Function(); 
+
+const textAlert = new Function("text", "alert(text);");
+
+// textAlert('działa!')
+
+// ostatni argument to ciało funkcji. 
+
+
+// W większych programach rekomenduje używanie pierwszej opcji, a więc wyrażenia funkcyjnego (bezpieczne const). W małych opcja 1 i 2 są najlepsze. O opcji 3 wiec tylko, że istnieje. 
+
+
+// Tak było do niedawna. Mamy 4 sposób
+
