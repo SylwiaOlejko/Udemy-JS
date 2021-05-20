@@ -48,7 +48,7 @@ function addNumbers(x, y) {
     console.log("Programowanie w JS");
    }
 
-   
+
    // 3. KONSTRUKTOR (Function Constructor)
 
 // Szkielet funkcji 
@@ -66,3 +66,20 @@ const textAlert = new Function("text", "alert(text);");
 
 // Tak było do niedawna. Mamy 4 sposób
 
+// 4. FUNKCJA STRZAŁKOWA, FUNKCJA ZE STRZAŁKĄ (ARROW FUNCTION)
+
+// Szkielet funkcji 
+
+// const nazwaFunkcjiCoRobi = () => {};
+
+// Funkcja strzałkowa ma inną składnię i trochę inne zachowania, ale jest bardzo ciekawym rozwiązanie. Omówimy ją trochę bardziej przy OOP i przy okazji projektów.
+// Funkcja strzałkowa jest zawsze anonimowa
+// Główna zaleta na teraz - krótsza
+// Szczególnie użyteczna dla prostych zadań
+
+const showMeTextMyArrowFunction = (text) => { console.log(text) };
+
+// showMeTextMyArrowFunction("hejjjj!");
+
+
+/* ---------------------------------------- */
