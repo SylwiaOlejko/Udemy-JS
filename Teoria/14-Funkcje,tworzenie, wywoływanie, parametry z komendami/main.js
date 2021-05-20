@@ -28,3 +28,23 @@ const showMessage = function() {
    
    // taka funkcja bez nazwy określana jest funkcją anonimową.
    
+
+   // 2. DEKLARACJA FUNKCJI. Najpierw słowo kluczowe function, potem nazwa. Po angielsku Function Declaration
+
+// Szkielet funkcji 
+// function nazwaFunkcjiCoRobi(){} 
+
+function addNumbers(x, y) {
+    return x + y;
+   }
+   
+   addNumbers(2, 4);
+   
+   // Plusem (minusem, zależy jak patrzeć) jest to, że taka funkcja (dzięki hoistingowi) jest możliwa do uruchomienia nawet przed deklaracją.
+   
+   // showCourseName();
+   
+   function showCourseName() {
+    console.log("Programowanie w JS");
+   }
+   
