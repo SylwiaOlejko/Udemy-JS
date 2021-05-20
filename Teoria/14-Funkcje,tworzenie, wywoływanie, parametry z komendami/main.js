@@ -150,3 +150,10 @@ const divideBy2 = function(number) {
 const showMyName = function() {
     console.log("Bartek");
    }
+
+   // Z parametrem
+// Parametr - pojecie używane dla określenie nazwy użytej przy tworzeniu funkcji
+const showUserName = function(userName) {
+    console.log("witaj " + userName);
+   }
+   
