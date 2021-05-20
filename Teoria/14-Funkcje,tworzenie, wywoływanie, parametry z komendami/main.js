@@ -83,3 +83,21 @@ const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
 
 /* ---------------------------------------- */
+
+
+// PRZYPISANIE FUNKCJI DO INNEJ ZMIENNEJ
+// Funkcje są obiektami a więc działają jak inne obiekty jeśli chodzi o przypisanie (czyli przypisujemy referencje, obiekt jest ciągle jeden).
+
+const showNewCourse = showCourseName;
+// showCourseName();
+// to jest dokładnie ta sama funkcja (nie jej kopia)
+
+/* ---------------------------------------- */
+
+// WYWOŁYWANIE FUNKCJI (invoking)
+// nazwa() - tak wywołujemy funkcje
+// nazwa(argument1, argument2) - wywoł
+// Stworzona funkcja może być wywołana wielokrotnie (może też nie być wywołana nigdy)
+// innych wartości czy obiektów niż funkcja wywołać się nie da.
+
+/* ---------------------------------------- */
