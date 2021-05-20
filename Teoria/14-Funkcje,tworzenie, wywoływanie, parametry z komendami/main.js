@@ -101,3 +101,42 @@ const showNewCourse = showCourseName;
 // innych wartości czy obiektów niż funkcja wywołać się nie da.
 
 /* ---------------------------------------- */
+
+
+// ZWRACANIE WARTOŚCI Z FUNKCJI
+// funkcja może coś robić i może coś zwracać.
+// Domyślnie każda funkcja po wykonaniu zadania zwraca undefined
+// Możemy to zmienić (i często to robimy) używajac instrukcji return
+
+
+// Przykład 1 - Funkcja która wpływa na program (efekt uboczny) nic nie zwraca (formalnie zwraca undefined)
+
+const divideBy2 = function(number) {
+    console.log(number / 2);
+   }
+   
+   // const result1 = divideBy2(10);
+   
+   let number = 0
+   const add = function() {
+    number++;
+    console.log(number);
+   }
+   
+   // Przykład 2 - Funkcja, która tylko przetwarza dane (bez efektu ubocznego) i zwraca wartość
+   const divideBy3 = function(number) {
+    return number / 3; //słowo kluczowe return
+   }
+   
+   const result2 = divideBy3(20);
+   
+   // Przykład 3 - Funkcja z efektem ubocznym i zwracająca wartość
+   
+   const divideBy5 = function(number) {
+    const result = number / 5
+    console.log(result);
+    return result;
+   }
+   
+   const result3 = divideBy5(26);
+   
