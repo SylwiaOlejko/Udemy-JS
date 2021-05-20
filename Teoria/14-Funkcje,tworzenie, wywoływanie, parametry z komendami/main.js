@@ -140,3 +140,13 @@ const divideBy2 = function(number) {
    
    const result3 = divideBy5(26);
    
+
+   // PARAMETRY I ARGUMENTY
+
+// Parametr element składowy funkcji na etapie jej tworzenia. Nie trzeba ich umieszczać (funkcja nie musi mieć parametrów)
+
+
+// Bez paramtru
+const showMyName = function() {
+    console.log("Bartek");
+   }
