@@ -25,7 +25,7 @@ const showMessage = function() {
     console.log("wywołałem funkcję showMessage")
    }
    
-   // showMessage()
+    showMessage()
    
    // taka funkcja bez nazwy określana jest funkcją anonimową.
    
@@ -35,19 +35,19 @@ const showMessage = function() {
 // Szkielet funkcji 
 // function nazwaFunkcjiCoRobi(){} 
 
-function addNumbers(x, y) {
-    return x + y;
-   }
+// function addNumbers(x, y) {
+//     return x + y;
+//    }
    
-   addNumbers(2, 4);
+//    addNumbers(2, 4);
    
-   // Plusem (minusem, zależy jak patrzeć) jest to, że taka funkcja (dzięki hoistingowi) jest możliwa do uruchomienia nawet przed deklaracją.
+//    // Plusem (minusem, zależy jak patrzeć) jest to, że taka funkcja (dzięki hoistingowi) jest możliwa do uruchomienia nawet przed deklaracją.
    
-   // showCourseName();
+//    // showCourseName();
    
-   function showCourseName() {
-    console.log("Programowanie w JS");
-   }
+//    function showCourseName() {
+//     console.log("Programowanie w JS");
+//    }
 
 
    // 3. KONSTRUKTOR (Function Constructor)
@@ -55,7 +55,7 @@ function addNumbers(x, y) {
 // Szkielet funkcji 
 // const nazwaFunkcjiCoRobi = new Function(); 
 
-const textAlert = new Function("text", "alert(text);");
+// const textAlert = new Function("text", "alert(text);");
 
 // textAlert('działa!')
 
@@ -78,7 +78,7 @@ const textAlert = new Function("text", "alert(text);");
 // Główna zaleta na teraz - krótsza
 // Szczególnie użyteczna dla prostych zadań
 
-const showMeTextMyArrowFunction = (text) => { console.log(text) };
+// const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
 // showMeTextMyArrowFunction("hejjjj!");
 
@@ -89,7 +89,7 @@ const showMeTextMyArrowFunction = (text) => { console.log(text) };
 // PRZYPISANIE FUNKCJI DO INNEJ ZMIENNEJ
 // Funkcje są obiektami a więc działają jak inne obiekty jeśli chodzi o przypisanie (czyli przypisujemy referencje, obiekt jest ciągle jeden).
 
-const showNewCourse = showCourseName;
+//const showNewCourse = showCourseName;
 // showCourseName();
 // to jest dokładnie ta sama funkcja (nie jej kopia)
 
@@ -112,34 +112,34 @@ const showNewCourse = showCourseName;
 
 // Przykład 1 - Funkcja która wpływa na program (efekt uboczny) nic nie zwraca (formalnie zwraca undefined)
 
-const divideBy2 = function(number) {
-    console.log(number / 2);
-   }
+// const divideBy2 = function(number) {
+//     console.log(number / 2);
+//    }
    
-   // const result1 = divideBy2(10);
+//    // const result1 = divideBy2(10);
    
-   let number = 0
-   const add = function() {
-    number++;
-    console.log(number);
-   }
+//    let number = 0
+//    const add = function() {
+//     number++;
+//     console.log(number);
+//    }
    
-   // Przykład 2 - Funkcja, która tylko przetwarza dane (bez efektu ubocznego) i zwraca wartość
-   const divideBy3 = function(number) {
-    return number / 3; //słowo kluczowe return
-   }
+//    // Przykład 2 - Funkcja, która tylko przetwarza dane (bez efektu ubocznego) i zwraca wartość
+//    const divideBy3 = function(number) {
+//     return number / 3; //słowo kluczowe return
+//    }
    
-   const result2 = divideBy3(20);
+//    const result2 = divideBy3(20);
    
-   // Przykład 3 - Funkcja z efektem ubocznym i zwracająca wartość
+//    // Przykład 3 - Funkcja z efektem ubocznym i zwracająca wartość
    
-   const divideBy5 = function(number) {
-    const result = number / 5
-    console.log(result);
-    return result;
-   }
+//    const divideBy5 = function(number) {
+//     const result = number / 5
+//     console.log(result);
+//     return result;
+//    }
    
-   const result3 = divideBy5(26);
+//    const result3 = divideBy5(26);
    
 
    // PARAMETRY I ARGUMENTY
@@ -148,20 +148,20 @@ const divideBy2 = function(number) {
 
 
 // Bez paramtru
-const showMyName = function() {
-    console.log("Bartek");
-   }
+// const showMyName = function() {
+//     console.log("Bartek");
+//    }
 
    // Z parametrem
 // Parametr - pojecie używane dla określenie nazwy użytej przy tworzeniu funkcji
-const showUserName = function(userName) {
-    console.log("witaj " + userName);
-   }
+// const showUserName = function(userName) {
+//     console.log("witaj " + userName);
+//    }
    
 
 
    // Argument - pojęcie użyte przy wywołaniu funkcji.
-showUserName("Franciszek");
+// showUserName("Franciszek");
 
 // Przykładowo w funkcji powyżej tworząć funkcję ustawiamy jeden parametr. Przy wywołaniu w miejsce parametru podajemy argument, który pełni rolę wartości dla parametru.
 
@@ -170,6 +170,6 @@ showUserName("Franciszek");
 // showUserName();
 
 // Jeśli podamy więcej argumentów niż paramtrów, to nie spowoduje to błędu
-showUserName("Piotr", 200);
+// showUserName("Piotr", 200);
 
-showUserName.length; //mówi ile argumentów oczekuje funkcja (czyli ile parametrów posiadała funkcja w momencie tworzenia)
+// showUserName.length; //mówi ile argumentów oczekuje funkcja (czyli ile parametrów posiadała funkcja w momencie tworzenia)
