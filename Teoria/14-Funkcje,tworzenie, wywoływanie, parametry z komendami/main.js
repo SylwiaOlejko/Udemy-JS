@@ -78,7 +78,7 @@ const textAlert = new Function("text", "alert(text);");
 // Główna zaleta na teraz - krótsza
 // Szczególnie użyteczna dla prostych zadań
 
-// const showMeTextMyArrowFunction = (text) => { console.log(text) };
+const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
 // showMeTextMyArrowFunction("hejjjj!");
 
