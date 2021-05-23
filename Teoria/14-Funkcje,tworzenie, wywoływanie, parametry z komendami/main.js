@@ -40,14 +40,14 @@ function addNumbers(x, y) {
    }
    
    addNumbers(2, 4);
-   //mini kalkulator który wyświetla się w konsoli 
+   //mini kalkulator który wyświetla się w terminalu
 //    // Plusem (minusem, zależy jak patrzeć) jest to, że taka funkcja (dzięki hoistingowi) jest możliwa do uruchomienia nawet przed deklaracją.
    
-//    // showCourseName();
+//     showCourseName();
    
-//    function showCourseName() {
-//     console.log("Programowanie w JS");
-//    }
+   function showCourseName() {
+    console.log("Programowanie w JS");
+   }
 
 
    // 3. KONSTRUKTOR (Function Constructor)
@@ -55,7 +55,7 @@ function addNumbers(x, y) {
 // Szkielet funkcji 
 // const nazwaFunkcjiCoRobi = new Function(); 
 
-// const textAlert = new Function("text", "alert(text);");
+const textAlert = new Function("text", "alert(text);");
 
 // textAlert('działa!')
 
