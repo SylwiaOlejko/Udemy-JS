@@ -80,7 +80,7 @@ const textAlert = new Function("text", "alert(text);");
 
 const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
-// showMeTextMyArrowFunction("hejjjj!");
+ showMeTextMyArrowFunction("hejjjj!"); //funkcja strzałkowa
 
 
 /* ---------------------------------------- */
