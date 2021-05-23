@@ -148,20 +148,20 @@ const divideBy2 = function(number) {
 
 
 // Bez paramtru
-const showMyName = function() {
+const showMyName = function(userName) {
     console.log("Bartek");
    }
 
    // Z parametrem
 // Parametr - pojecie używane dla określenie nazwy użytej przy tworzeniu funkcji
-// const showUserName = function(userName) {
-//     console.log("witaj " + userName);
-//    }
+const showUserName = function(userName) {
+    console.log("witaj " + userName);
+   }
    
 
 
    // Argument - pojęcie użyte przy wywołaniu funkcji.
-// showUserName("Franciszek");
+ showUserName("Franciszek");
 
 // Przykładowo w funkcji powyżej tworząć funkcję ustawiamy jeden parametr. Przy wywołaniu w miejsce parametru podajemy argument, który pełni rolę wartości dla parametru.
 
