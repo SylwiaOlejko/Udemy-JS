@@ -139,7 +139,7 @@ const divideBy2 = function(number) {
     return result;
    }
    
-   const result3 = divideBy5(26);
+   const result3 = divideBy5(65);
    
 
    // PARAMETRY I ARGUMENTY
@@ -148,9 +148,9 @@ const divideBy2 = function(number) {
 
 
 // Bez paramtru
-// const showMyName = function() {
-//     console.log("Bartek");
-//    }
+const showMyName = function() {
+    console.log("Bartek");
+   }
 
    // Z parametrem
 // Parametr - pojecie używane dla określenie nazwy użytej przy tworzeniu funkcji
