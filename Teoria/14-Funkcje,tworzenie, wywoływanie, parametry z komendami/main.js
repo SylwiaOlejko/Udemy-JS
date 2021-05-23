@@ -80,7 +80,7 @@ const textAlert = new Function("text", "alert(text);");
 
 const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
- showMeTextMyArrowFunction("hejjjj!"); //funkcja strzałkowa
+ //showMeTextMyArrowFunction("hejjjj!"); //funkcja strzałkowa
 
 
 /* ---------------------------------------- */
@@ -89,13 +89,13 @@ const showMeTextMyArrowFunction = (text) => { console.log(text) };
 // PRZYPISANIE FUNKCJI DO INNEJ ZMIENNEJ
 // Funkcje są obiektami a więc działają jak inne obiekty jeśli chodzi o przypisanie (czyli przypisujemy referencje, obiekt jest ciągle jeden).
 
-//const showNewCourse = showCourseName;
+const showNewCourse = showCourseName;
 // showCourseName();
 // to jest dokładnie ta sama funkcja (nie jej kopia)
 
 /* ---------------------------------------- */
 
-// WYWOŁYWANIE FUNKCJI (invoking)
+// WYWOŁYWANIE FUNKCJI (invoking-wywołanie)
 // nazwa() - tak wywołujemy funkcje
 // nazwa(argument1, argument2) - wywoł
 // Stworzona funkcja może być wywołana wielokrotnie (może też nie być wywołana nigdy)
@@ -112,11 +112,11 @@ const showMeTextMyArrowFunction = (text) => { console.log(text) };
 
 // Przykład 1 - Funkcja która wpływa na program (efekt uboczny) nic nie zwraca (formalnie zwraca undefined)
 
-// const divideBy2 = function(number) {
-//     console.log(number / 2);
-//    }
+const divideBy2 = function(number) {
+    console.log(number / 2);
+   }
    
-//    // const result1 = divideBy2(10);
+   // const result1 = divideBy2(10);
    
 //    let number = 0
 //    const add = function() {
@@ -133,13 +133,13 @@ const showMeTextMyArrowFunction = (text) => { console.log(text) };
    
 //    // Przykład 3 - Funkcja z efektem ubocznym i zwracająca wartość
    
-//    const divideBy5 = function(number) {
-//     const result = number / 5
-//     console.log(result);
-//     return result;
-//    }
+   const divideBy5 = function(number) {
+    const result = number / 5
+    console.log(result);
+    return result;
+   }
    
-//    const result3 = divideBy5(26);
+   const result3 = divideBy5(26);
    
 
    // PARAMETRY I ARGUMENTY
