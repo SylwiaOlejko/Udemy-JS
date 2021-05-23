@@ -1,5 +1,6 @@
 /* FUNKCJE */
 
+// finkcje są obiektami, tak samo jak tablice
 // Co o funkcjach trzeba wiedzieć na początek:
 
 // -- są obiektami (jak tablica, któą już poznaliśmy)
