@@ -25,7 +25,7 @@ const showMessage = function() {
     console.log("wywołałem funkcję showMessage")
    }
    
-    showMessage()
+    //showMessage() - wywołanie funkcji
    
    // taka funkcja bez nazwy określana jest funkcją anonimową.
    
@@ -35,12 +35,12 @@ const showMessage = function() {
 // Szkielet funkcji 
 // function nazwaFunkcjiCoRobi(){} 
 
-// function addNumbers(x, y) {
-//     return x + y;
-//    }
+function addNumbers(x, y) {
+    return x + y;
+   }
    
-//    addNumbers(2, 4);
-   
+   addNumbers(2, 4);
+   //mini kalkulator który wyświetla się w konsoli 
 //    // Plusem (minusem, zależy jak patrzeć) jest to, że taka funkcja (dzięki hoistingowi) jest możliwa do uruchomienia nawet przed deklaracją.
    
 //    // showCourseName();
