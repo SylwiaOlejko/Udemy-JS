@@ -11,11 +11,11 @@ const addTwoNumbers = (x = 0, y = 0) => {
    
    
    // Deklaracja funkcji (to samo ale inny sposób tworzenie) 
-   // const addTwoNumbers = function(x = 0, y = 0) {
-   //  const result = x + y;
-   //  console.log(result);
-   //  return result;
-   // }
+//    const addTwoNumbers = function(x = 0, y = 0) {
+//     const result = x + y;
+//     console.log(result);
+//     return result;
+//    }
    
    // Bez wartości domyślnych gdybyśmy nie podali argumentów otrzymalibyśmy undefined w miejscu ich wykorzystania.
    
