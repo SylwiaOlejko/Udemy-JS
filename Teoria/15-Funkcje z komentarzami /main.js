@@ -35,7 +35,7 @@ function count(x, callback) {
    function addOne(item) {
     item++
     console.log(item);
-    return item;
+    return item; //funkcja ktora dodaje nam jeden do wprowadzonej wartości 
    }
    
    function subtractOne(number) {
