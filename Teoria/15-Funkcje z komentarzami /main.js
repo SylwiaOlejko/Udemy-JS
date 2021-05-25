@@ -41,7 +41,7 @@ function count(x, callback) {
    function subtractOne(number) {
     number--
     console.log(number);
-    return number;
+    return number; //odejmuje jeden od wprowadzonego elementu 
    }
    
    // const result = count(5, addOne)
