@@ -44,7 +44,7 @@ function count(x, callback) {
     return number; //odejmuje jeden od wprowadzonego elementu 
    }
    
-   // const result = count(5, addOne)
+   const result = count(5, addOne)
    // count(5, addOne)
    
    
