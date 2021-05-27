@@ -39,3 +39,26 @@ function showAllArguments(...items) {
    
    
    /* ---------------------------------------- */
+
+
+   // METODY A FUNKCJE
+// Metody to funkcje umieszczone w obiektach (poznamy w przyszłości). 
+
+const objectExample = {
+    name: "Adam",
+    showName: function() {
+     console.log("Jan")
+    },
+    showAge() {
+     console.log(30);
+    }
+   }
+   
+   // objectExample.showName();
+   // objectExample.showAge();
+   
+   const showName = function() {
+    console.log("Jan")
+   }
+   
+   // showName();
