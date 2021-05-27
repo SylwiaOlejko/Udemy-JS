@@ -105,6 +105,8 @@ function count(x, callback) {
    
    // Jak sprawić by funkcja zachowywała się inaczej przy różnych argumentach
    
+
+   
    function showInfoAboutUser(age, name, sex) {
     if (arguments.length === 0) {
      console.log('nie mam żadnych informacji o tym użytkowniku');
