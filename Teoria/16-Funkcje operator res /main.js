@@ -52,11 +52,11 @@ const objectExample = {
     }
    }
    
-   // objectExample.showName();
-   // objectExample.showAge();
+   objectExample.showName();
+   objectExample.showAge();
    
    const showName = function() {
     console.log("Jan")
    }
    
-   // showName();
+   showName();
