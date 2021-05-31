@@ -52,7 +52,7 @@ function count(x, callback) {
    
    const showClick = function() {
     console.log("click")
-   }
+   } //ta funkcja ma być wywołana w momencie, w którym będzie kliknięcie 
    
    document.body.addEventListener("click", showClick)
    
