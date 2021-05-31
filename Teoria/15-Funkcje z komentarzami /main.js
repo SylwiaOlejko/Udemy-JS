@@ -59,18 +59,18 @@ function count(x, callback) {
    
    //3. Przykład callback // funkcja wbudowana
    
-   // const showTime = () => {
-   //  console.log("minęły 2 sekundy")
-   // }
-   // setInterval(showTime, 2000)
+   const showTime = () => {
+    console.log("minęły 2 sekundy")
+   }
+   setInterval(showTime, 2000)
    
    
-   //4. Przykład callback
+   //4. Przykład callback - wyświetlanie wszystkich rzeczy z fablicy 
    
-   // const usersAge = [20, 30, 21, 17, 67, 96, 55];
+   const usersAge = [20, 30, 21, 17, 67, 96, 55];
    
-   // usersAge.forEach(userAge => console.log(`Wiek użytkownika to ${userAge}`));
-   // usersAge.forEach(function(userAge) { console.log("Wiek użytkownika to " + userAge); });
+   usersAge.forEach(userAge => console.log(`Wiek użytkownika to ${userAge}`));
+   usersAge.forEach(function(userAge) { console.log("Wiek użytkownika to " + userAge); });
    
    
    /* ----------------------------------------- */
