@@ -72,7 +72,7 @@ function count(x, callback) {
    usersAge.forEach(userAge => console.log(`Wiek użytkownika to ${userAge}`));
    usersAge.forEach(function(userAge) { console.log("Wiek użytkownika to " + userAge); });
    
-   
+   //forEach- oznacza, wykonaj na każdym elemencie naszej tablicy, na kazdym osobno jakieś działanie
    /* ----------------------------------------- */
    
    // ARGUMENTS - być może nie będziesz tak często używała, ale  wiedz, że jest coś takiego jak obiekt arguments (podobny do tablicy, ale to nie jest tablica), który zawiera aktualną listę argumentów przekazanych do tablicy.
