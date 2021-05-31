@@ -11,22 +11,22 @@ function showAllArguments(...items) {
    
    function addAllWords(...words) {
     let txt = "";
-    // for (let i = 0; i < words.length; i++) {
-    //  // txt += words[i] + "-";
-    //  txt += `${words[i]}-`;
-    // }
+    for (let i = 0; i < words.length; i++) {
+     // txt += words[i] + "-";
+     txt += `${words[i]}-`;
+    }
    
-    // words.forEach(function(word) {
-    //  // txt += word + "-";
-    //  txt += `${word}-`
-    // })
+    words.forEach(function(word) {
+     // txt += word + "-";
+     txt += `${word}-`
+    })
    
     words.forEach(word => txt += `${word}-`)
    
     console.log(txt);
    }
-   // addAllWords()
-   // addAllWords("ja", "ty", 2, "Gdańsk")
+   addAllWords()
+   addAllWords("ja", "ty", 2, "Gdańsk")
    
    // dzięki operatorowi rest możemy zbierać pozostałe argumenty (które zostaly umieszczone poza paramterami)
    
@@ -34,8 +34,6 @@ function showAllArguments(...items) {
     console.log(`Na imprezie był ${owner} ${others.length ? "oraz " + others + "." : "."}`)
    }
    
-   // showUsers("Adrian");
-   // showUsers("Adrian", "Jadzia", "Staszek", "Henio");
    
    
    /* ---------------------------------------- */
