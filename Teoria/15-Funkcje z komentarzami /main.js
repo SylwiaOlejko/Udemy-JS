@@ -77,28 +77,28 @@ function count(x, callback) {
    
    // ARGUMENTS - być może nie będziesz tak często używała, ale  wiedz, że jest coś takiego jak obiekt arguments (podobny do tablicy, ale to nie jest tablica), który zawiera aktualną listę argumentów przekazanych do tablicy.
    
-   // const showArguments = function() {
-   //  console.log(arguments); //arguments - nazwa dla obiektu (nazwa przypisana)
-   //  console.log(arguments.length); //długość - ile argumentów przekazaliśmy
-   //  console.log(arguments[0]); //odwołanie do konkretnego argumentu
-   //  console.log(typeof arguments); //obiekt (tablicopodobny). Ma właściwość length, można odwołać się za pomocą notacji tablicowej np. arguments[2]. Nie ma metod znanych z tablicy
-   //  console.log(Array.isArray(arguments));
-   // }
+   const showArguments = function() {
+    console.log(arguments); //arguments - nazwa dla obiektu (nazwa przypisana)
+    console.log(arguments.length); //długość - ile argumentów przekazaliśmy
+    console.log(arguments[0]); //odwołanie do konkretnego argumentu
+    console.log(typeof arguments); //obiekt (tablicopodobny). Ma właściwość length, można odwołać się za pomocą notacji tablicowej np. arguments[2]. Nie ma metod znanych z tablicy
+    console.log(Array.isArray(arguments));
+   }
    
-   // showArguments("5", null, {})
+   showArguments("5", null, {})
    
    // Wykorzystanie w praktyce
    
-   // const addAllNumbers = function() {
-   //  let result = 0;
-   //  for (let i = 0; i < arguments.length; i++) {
-   //   result += arguments[i];
-   //  }
-   //  return result;
-   // }
+   const addAllNumbers = function() {
+    let result = 0;
+    for (let i = 0; i < arguments.length; i++) {
+     result += arguments[i];
+    }
+    return result;
+   }
    
-   // const usersMoney = addAllNumbers(3, 2, 200, 1, 3, 32, 213);
-   // // console.log(addAllNumbers(19, 11.1, 20, -32));
+   const usersMoney = addAllNumbers(3, 2, 200, 1, 3, 32, 213);
+   console.log(addAllNumbers(19, 11.1, 20, -32));
    
    
    /* ---------------------------------------- */
@@ -107,14 +107,14 @@ function count(x, callback) {
    
 
    
-   // function showInfoAboutUser(age, name, sex) {
-   //  if (arguments.length === 0) {
-   //   console.log('nie mam żadnych informacji o tym użytkowniku');
-   //  } else if (arguments.length === 1) {
-   //   console.log("Użytkownik ma " + age + " lat. Nic więcej nie wiemy");
-   //  } else if (arguments.length === 2) {
-   //   console.log(`Użytkownik ma ${age} lat i ma na imię ${name}`);
-   //  } else {
-   //   console.log(`Użytkownik ma ${age} lat i ma na imię ${name} i jest ${sex}`);
-   //  }
-   // }
+   function showInfoAboutUser(age, name, sex) {
+    if (arguments.length === 0) {
+     console.log('nie mam żadnych informacji o tym użytkowniku');
+    } else if (arguments.length === 1) {
+     console.log("Użytkownik ma " + age + " lat. Nic więcej nie wiemy");
+    } else if (arguments.length === 2) {
+     console.log(`Użytkownik ma ${age} lat i ma na imię ${name}`);
+    } else {
+     console.log(`Użytkownik ma ${age} lat i ma na imię ${name} i jest ${sex}`);
+    }
+   }
