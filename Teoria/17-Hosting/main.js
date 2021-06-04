@@ -32,3 +32,34 @@ const funkcja = function() {
 //Jeśli zadeklarowaliśmy zmienną za pomocą const lub let i próbujemy jej użyć wcześniej, to nawet nie będzie undefined tylko błąd. Zmienna "is not defined". Ponieważ const i var nie podlega hoistingowi.
 
 /* --------------------------------- */
+
+
+// FUNKCJA STWORZONA ZA POMOCĄ DEKLARACJI
+// Funkcja stworzona za pomocą deklaracji (a nie przypisania do zmiennej) podelega hoistingowi i może być wywołana nawet przed jej zadeklarowaniem.
+
+// funkcjaNazwana();
+
+// console.log(funkcjaLet);
+// console.log(funkcjaVar);
+
+function funkcjaNazwana() {
+    console.log("jestem");
+   }
+   
+   // funkcjaConst() //błąd - nie jest zdefiniowe, bo zmienna const nie podelga hoistingowi
+   
+   console.log(funkcjaVar)
+   // funkcjaVar() // na tym etapie (przed stworzeniem) będzie zawierała undefined więc tak naprawdę próbujemy tu zrobić coś takiego undefined()
+   
+   
+   const funkcjaConst = function() {
+    console.log("ok");
+   };
+   let funkcjaLet = function() { };
+   
+   var funkcjaVar = function() { };
+   
+   
+   // Reasumująć hositingowi (przenoszeniu deklaracji na początek zakresu) podlegają funkcje i deklaracje zmiennych, ale tylko za pomocą var. Hoistingowi nie podlega przypisane wartości w zmiennych.
+   
+   // Trzeba wiedzieć, ze hoisting istnieje, nie koniecznei trzeba to "wykorzystywać". Być może najlepiej go unikać (a więc nie uzywać var i deklaracji funkcji)
