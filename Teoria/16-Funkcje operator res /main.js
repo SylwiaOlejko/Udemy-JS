@@ -16,10 +16,10 @@ function showAllArguments(...items) {
      txt += `${words[i]}-`;
     }
    
-    words.forEach(function(word) {
-     // txt += word + "-";
-     txt += `${word}-`
-    })
+    // words.forEach(function(word) {
+    //  // txt += word + "-";
+    //  txt += `${word}-`
+    // })
    
     words.forEach(word => txt += `${word}-`)
    
