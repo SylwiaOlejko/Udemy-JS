@@ -50,10 +50,10 @@ const objectExample = {
     showName: function() {
      console.log("Jan")
     },
-//     showAge() {
-//      console.log(30);
-//     }
-//    }
+    showAge() {
+     console.log(30);
+    }
+   }
    
    objectExample.showName();
    objectExample.showAge();
