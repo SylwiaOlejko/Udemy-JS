@@ -58,16 +58,16 @@ if (true) {
 let i = 100;
 
 for (let i = 0; i < 10; i++) {
- // let i = 10;
- // console.log(i);
- // const inFor = "wewnątrz pętli";
- // if (i < 4) {
- // i = 10;
- // let i = 20;
- // inFor = "wewnątrz pętli i wewnątrz instrukcji warunkowej";
- // const inFor = "wewnątrz pętli i wewnątrz instrukcji warunkowej";
- // console.log("i wewnątrz instrukcji warunkowej, w pętli " + i);
- // console.log(inFor);
+ let i = 10;
+ console.log(i);
+ const inFor = "wewnątrz pętli";
+ if (i < 4) {
+ i = 10;
+ let i = 20;
+ inFor = "wewnątrz pętli i wewnątrz instrukcji warunkowej";
+ const inFor = "wewnątrz pętli i wewnątrz instrukcji warunkowej";
+ console.log("i wewnątrz instrukcji warunkowej, w pętli " + i);
+ console.log(inFor);
 
  // }
 
