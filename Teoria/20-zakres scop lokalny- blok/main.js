@@ -8,7 +8,7 @@
 let var1 = 1;
 const var2 = 2;
 var var3 = 3;
-
+zakres blokowy
 {
  // let var1 = "wewnętrzne 1";
  // const var2 = "wewnętrzne 2";
