@@ -20,11 +20,13 @@ zakres blokowy
  // var2 = "wewnętrzne 2";
  var3 = "wewnętrzne 3";
  const var4 = "coś"
+ //console.log szuka w srodku
 }
 // console.log(var1);
 // console.log(var2);
 // console.log(var3);
 // console.log(var4);
+//console.log szuka za zewnątrz, środek go nie interesuje 
 
 
 
