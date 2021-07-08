@@ -8,7 +8,7 @@
 //operator new i konstruktor obiektu (funkcja)
 
 // 1 - tworzymy obiekt
-const cat = new Object();
+const cat = new Object(); //dziedziczenie tego co ma obiekt
 
 // 2 - przypisujemy mu właściwości
 cat.name = "Gacek";
