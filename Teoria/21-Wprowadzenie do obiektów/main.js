@@ -55,6 +55,7 @@ dog.castrated = true;
 // dog.barking()
 // dog.squeaking()
 
+
 // USUWANIE
 
 delete dog.childrens;
