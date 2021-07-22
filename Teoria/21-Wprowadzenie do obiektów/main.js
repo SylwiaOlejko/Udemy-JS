@@ -60,8 +60,6 @@ dog.castrated = true;
 
 delete dog.childrens;
 
-
-
 // PRZYKŁAD1
 //Odwołanie do obiektu w innej funkcji
 
