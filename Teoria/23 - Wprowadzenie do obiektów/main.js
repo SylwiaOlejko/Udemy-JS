@@ -26,6 +26,7 @@ cat.meow = function() {
 const hamster = {};
 
 
+
 const dog = {
 
  name: ['Fafik', "Azor"],
@@ -43,6 +44,7 @@ const dog = {
   console.log('aaaa uuu eee');
  },
 }
+
 
 // 2 - możemy dynamicznie dodwać (zmieniać) własciwości
 dog.castrated = false;
