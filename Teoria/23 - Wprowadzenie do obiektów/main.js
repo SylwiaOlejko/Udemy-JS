@@ -13,7 +13,9 @@ const cat = new Object();
 // 2 - przypisujemy mu właściwości
 cat.name = "Gacek";
 cat['age'] = 2;
+
 // cat.age = 2; // dokładnie to sam
+
 cat['eye color'] = 'red';
 cat.meow = function() {
  console.log("miau miau");
