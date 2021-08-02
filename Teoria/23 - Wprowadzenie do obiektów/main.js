@@ -16,7 +16,7 @@ cat['age'] = 2;
 
 // cat.age = 2; // dokładnie to sam
 
-cat['eye color'] = 'red';
+cat['eye color'] = 'red'; /*tak można robić ale nie jest polecane */
 cat.meow = function() {
  console.log("miau miau");
 }
