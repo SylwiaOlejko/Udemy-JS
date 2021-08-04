@@ -14,34 +14,34 @@
 // ES5
 const text1 = "tekst\ntekst\ntekst";
 // ES6
-// const text2 = `tekst
-// tekst
-// tekst`;
+const text2 = `tekst
+tekst
+tekst`;
 
 
 // ${} - osadzanie kodu JS wewnatrz stringa
 
-//const yourName = "Jagienka";
+const yourName = "Jagienka";
 
 //Możliwość wstrzykiwania kodu wewnatrz stringa
-//const greeting = `Cześć ${yourName}!`;
+const greeting = `Cześć ${yourName}!`;
 
 // Podobny efekt możemy uzyskać za pomocą konkatenacji
-//onst greeting2 = "Cześć " + yourName + "!";
+const greeting2 = "Cześć " + yourName + "!";
 
 
 //Możliwość użycia wyrażenia (wyrażenie jest wykonywane i zwracany jest wynik)
 
-// const user1 = 29;
-// const user2 = 45;
-// const user3 = 34;
+const user1 = 29;
+const user2 = 45;
+const user3 = 34;
 
 // console.log(`Średni wiek użytkowników to: ${(user1 + user2 + user3) / 3}, a łączny wiek to ${user1 + user2 + user3} lat`);
 
 
 // Pobranie i wyświetlenie aktualnej daty
 
-// console.log(`Obecnie zegarek wskazuje ${new Date().toLocaleString()}`);
+ console.log(`Obecnie zegarek wskazuje ${new Date().toLocaleString()}`);
 
 // Obliczenie
 
@@ -62,5 +62,5 @@ const tax = 23;
 
 let itemName = "lcd"
 let items = 20;
-console.log(`Własnie sprzedałem jeden ${itemName}. Na stanie jest jeszcze ${--items}`)
+//console.log(`Własnie sprzedałem jeden ${itemName}. Na stanie jest jeszcze ${--items}`)
 
