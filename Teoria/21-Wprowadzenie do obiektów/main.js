@@ -51,9 +51,9 @@ dog.castrated = true;
 
 // DOSTĘP DO WŁAŚCIWOŚCI I METOD
 
-// console.log(dog.name);
-// dog.barking()
-// dog.squeaking()
+console.log(dog.name);
+dog.barking()
+dog.squeaking()
 
 
 // USUWANIE
