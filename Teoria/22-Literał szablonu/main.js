@@ -45,7 +45,7 @@ const user3 = 34;
 
 // Obliczenie
 
-const price = 76.0;
+const price = 80.99;
 const tax = 23;
 
 console.log(`Do zapłaty: ${price + (price * tax) / 100} złotych`)
