@@ -48,15 +48,15 @@ const user3 = 34;
 const price = 80.99;
 const tax = 23;
 
-console.log(`Do zapłaty: ${price + (price * tax) / 100} złotych`)
+// console.log(`Do zapłaty: ${price + (price * tax) / 100} złotych`)
 
-console.log(`Do zapłaty: ${(price + (price * tax) / 100).toFixed(2)} złotych`)
+// console.log(`Do zapłaty: ${(price + (price * tax) / 100).toFixed(2)} złotych`)
 
 
 // Często wykorzystujemy w wyrażeniu operator trójargumentowy
 
-// console.log(`Dzisiejsza cena netto jest ${price >= 80 ? "wysoka" : "niska"}.`)
-
+ console.log(`Dzisiejsza cena netto jest ${price >= 80 ? "wysoka" : "niska"}.`)
+//konsola wyświatla informacje, czy dzisiejsza cena jest wyska - większa/równa niż 80złm czy niska - mniej niż 80zł 
 
 // Inkrementacaj/dekrementacja
 
