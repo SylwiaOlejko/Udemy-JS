@@ -41,16 +41,16 @@ const user3 = 34;
 
 // Pobranie i wyświetlenie aktualnej daty
 
- console.log(`Obecnie zegarek wskazuje ${new Date().toLocaleString()}`);
+//  console.log(`Obecnie zegarek wskazuje ${new Date().toLocaleString()}`);
 
 // Obliczenie
 
 const price = 76.0;
 const tax = 23;
 
-// console.log(`Do zapłaty: ${price + (price * tax) / 100} złotych`)
+console.log(`Do zapłaty: ${price + (price * tax) / 100} złotych`)
 
-// console.log(`Do zapłaty: ${(price + (price * tax) / 100).toFixed(2)} złotych`)
+console.log(`Do zapłaty: ${(price + (price * tax) / 100).toFixed(2)} złotych`)
 
 
 // Często wykorzystujemy w wyrażeniu operator trójargumentowy
