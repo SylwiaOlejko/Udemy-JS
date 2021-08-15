@@ -41,3 +41,24 @@ const liList = document.querySelectorAll('li'); //pobranie elementów (NodeList)
 
 const liArray = [...liList]; //parametr rest do przerobienia na tablicę
 const liArray2 = Array.from(liList); //metoda do przerobienia na tablicę
+
+
+// POBIERANIE ATRYBUTÓW I ZAWARTOŚCI Z ELEMENTÓW
+
+const h2 = document.querySelector('h2');
+// console.log(h2.getAttribute('class'));
+// console.log(h2.getAttribute('data-color'));
+// console.log(h2.getAttribute('id')); //Jeśli nie ma danego atrybutu, to zwracany jest null. Jeśli jest zwraca całą zawartość atrybutu
+
+const h2Class = document.querySelector('h2').getAttribute('class');
+
+const h2Text = h2.textContent; //zawartość tekstowa
+const h2HTML = h2.innerHTML; //tekst wraz ze znacznikami html któe są wewnatrz danego elementu
+
+// classList
+//Obiekt classList przechowuje wszytskie klasy danego elelement (jeśli nie ma to jest to pusty obiekt)
+// console.log(h2.classList);
+
+// Przykładowa metoda contains dla obiektu ClassList
+h2.classList.contains("title"); // Metoda contains sprawdza czy element posiada daną klasę. Jeśli ma zwracane jest true, jeśli nie zwraca false
+
