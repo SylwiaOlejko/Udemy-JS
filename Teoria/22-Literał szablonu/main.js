@@ -62,5 +62,5 @@ const tax = 23;
 
 let itemName = "lcd"
 let items = 20;
-//console.log(`Własnie sprzedałem jeden ${itemName}. Na stanie jest jeszcze ${--items}`)
+console.log(`Własnie sprzedałem jeden ${itemName}. Na stanie jest jeszcze ${--items}`)
 
