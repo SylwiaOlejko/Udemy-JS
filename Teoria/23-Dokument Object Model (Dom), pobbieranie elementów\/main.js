@@ -16,3 +16,28 @@ document.images  //dostęp do obiektu (HTMLCollection -obiekt tablicopodobny) za
 // Taki obiekt łatwo przerobić na tablicę na dwa sposoby:
 const imgs = Array.from(document.images);
 const imgs2 = [...document.images];
+
+// Metody pobierające JEDEN element
+
+document.querySelector("li:nth-child(3)"); //jak selektor CSS
+const firstElement = document.getElementById('car'); //Jako argument przy wywołaniu metody podajemy identyfikator
+
+
+// Obie metody zwracają pierwszy znaleziony element lub null jeśli nie znalazły żadnego.
+
+
+// Metody pobierające WSZYSTKIE pasujace elementy
+
+document.querySelectorAll("* ul>li>a"); //NodeList - lista węzłów (obiekt tablicopodobny, oprócz właściwości length i mozliwości pracy z nim na notacji tablicy czyli np.[1], ma też kilka metod tablicy, ale tylko nieliczne)
+document.getElementsByTagName('li'); //HTMLCollection (obiekt tablicopodobny)
+document.getElementsByClassName("even"); //HTMLCollection (obiekt tablicopodobny)
+
+// Zwracają listę pasujacych elementów w formie tablicopodobnego obiektu (NodeList/listy węzłów w przypadku querySelectorAll i HTMLCollection/kolekcji html w przypadku dwóch pozostałych). Jeśli nie znajdują żadnego pasującego elementu to zwracany obiekt jest pusty.
+// Ten pierwszy sposób współcześne zdaje się być czesciej używany, bardziej też przypomina tablicę (ma część jej metod)
+
+// Pamiętajmy jednak, że taki pseudotablice możemy łatwo zmienic na tablicę np.
+
+const liList = document.querySelectorAll('li'); //pobranie elementów (NodeList)
+
+const liArray = [...liList]; //parametr rest do przerobienia na tablicę
+const liArray2 = Array.from(liList); //metoda do przerobienia na tablicę
