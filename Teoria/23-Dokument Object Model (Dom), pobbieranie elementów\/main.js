@@ -14,7 +14,7 @@ document.body // dostęp do węzła body
 document.images  //dostęp do obiektu (HTMLCollection -obiekt tablicopodobny) zawierającego wszystkie img w dokumencie (jeśli ich nie ma to obiekt jest pusty). Obiekt ten przypomina tablicę ponieważ ma length i do poszczególnych elementów można się dostać za pomocą notacje tablicy). 
 
 // Taki obiekt łatwo przerobić na tablicę na dwa sposoby:
-const imgs = Array.from(document.images);
+/*const imgs = Array.from(document.images);
 const imgs2 = [...document.images];
 
 // Metody pobierające JEDEN element
@@ -62,3 +62,4 @@ const h2HTML = h2.innerHTML; //tekst wraz ze znacznikami html któe są wewnatrz
 // Przykładowa metoda contains dla obiektu ClassList
 h2.classList.contains("title"); // Metoda contains sprawdza czy element posiada daną klasę. Jeśli ma zwracane jest true, jeśli nie zwraca false
 
+b
