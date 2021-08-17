@@ -46,9 +46,9 @@ const liArray2 = Array.from(liList); //metoda do przerobienia na tablicę
 // POBIERANIE ATRYBUTÓW I ZAWARTOŚCI Z ELEMENTÓW
 
 const h2 = document.querySelector('h2');
-// console.log(h2.getAttribute('class'));
-// console.log(h2.getAttribute('data-color'));
-// console.log(h2.getAttribute('id')); //Jeśli nie ma danego atrybutu, to zwracany jest null. Jeśli jest zwraca całą zawartość atrybutu
+console.log(h2.getAttribute('class'));
+console.log(h2.getAttribute('data-color'));
+console.log(h2.getAttribute('id')); //Jeśli nie ma danego atrybutu, to zwracany jest null. Jeśli jest zwraca całą zawartość atrybutu
 
 const h2Class = document.querySelector('h2').getAttribute('class');
 
