@@ -10,7 +10,7 @@ firstLi.innerHTML = '<strong>Pogrubienie</strong> i normalnie';
 firstLi.textContent += " coś nowego";
 
 // Dodawanie stylów do elementu(liniowo)
-firstLi.style.fontSize = "30px";
+firstLi.style.fontSize = "40px";
 firstLi.style.backgroundColor = "#ccc";
 firstLi.style.letterSpacing = "2px"
 
