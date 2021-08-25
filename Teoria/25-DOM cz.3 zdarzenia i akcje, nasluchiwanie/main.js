@@ -1,16 +1,25 @@
 // NASŁUCHIWANIE I OBSŁUGA ZDARZEŃ
 
-// Metoda addEventListener - możemy wywołać ją na dowolnym elemencie DOM oraz na window (reprezentacja okna przeglądarki).
+// Metoda addEventListener - możemy wywołać ją na dowolnym elemencie DOM
+// oraz na window (reprezentacja okna przeglądarki).
 
 //PRZYKŁAD
-// - jako pierwszy argument podajemy nazwę zdarzenie w tym przypadku podwójne kliknięcie czyli "dblclick".
-// jako drugi argument podajemy funkcję (callback), która ma być wywołana w moemencie wystapienie zdarzenia (za każdym razem gdy wystąpi) 
-window.addEventListener("dblclick", function() {
- console.log("podwójne kliknięcie");
-});
+// - jako pierwszy argument podajemy nazwę zdarzenie w tym przypadku podwójne
+// kliknięcie czyli "dblclick".
+// jako drugi argument podajemy funkcję (callback), która ma być wywołana 
+//w moemencie wystapienie zdarzenia (za każdym razem gdy wystąpi) 
+
+// window.addEventListener("scroll", function() {
+//  console.log("scroluje");
+// }); //- liczy ilość scrolowania
+
+// window.addEventListener("dblclick", function() {
+//     console.log("podwójne kliknięcie");
+// }); //- liczy ile było podwójnych kliknięć
+
 
 // PRZYKŁAD - możemy podać funkcję strzałkową
-// document.body.addEventListener("click", () => console.log("kliknięcie"))
+document.body.addEventListener("click", () => console.log("kliknięcie"))
 
 
 // PRZYKŁAD - mozemy też podać nazwę funkcji, która została stworzona poza metodą addEventListener
@@ -18,11 +27,11 @@ window.addEventListener("dblclick", function() {
 //  console.log("skrol");
 // }
 
-// function showScroll() {
-//  console.log("skrol");
-// }
+function showScroll() {
+ console.log("skrol");
+}
 
-// window.addEventListener("scroll", showScroll);
+window.addEventListener("scroll", showScroll);
 
 
 
