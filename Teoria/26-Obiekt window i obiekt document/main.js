@@ -2,12 +2,12 @@
 
 // window - obiekt globalny dla środowiska uruchomieniowego jakim jest przeglądarka. Zawiera mnóstwo metod i własciwości do wykorzystania. Window reprezentuje okno przeglądarki (otwartą kartę)
 
-// console.log(window)
-// console.log(window.document)
-// console.log(document) //to samo co wyżej, ale nie musimy podawać w zapisie window, bo document i tak zostanie rozpoznany.
+console.log(window)
+console.log(window.document)
+console.log(document) //to samo co wyżej, ale nie musimy podawać w zapisie window, bo document i tak zostanie rozpoznany.
 
 // tak naprawdę mamy
-// window.console.log("w konsoli")
+window.console.log("w konsoli")
 
 // Przykładowe metody dla document już poznaliśmy (np. querySelector, createElement) 
 // Przykładowe właściości:
@@ -32,16 +32,16 @@ window.scrollY; //wartość skrola
 // }, 5000)
 
 // PRZYKŁAD 2
-// const showTime = function() {
-//  time += 5;
-//  console.log(`Już ${time} sekund tu jesteś`);
-//  setTimeout(showTime, 5000);
-// }
+const showTime = function() {
+ time += 5;
+ console.log(`Już ${time} sekund tu jesteś`);
+ setTimeout(showTime, 5000);
+}
 
 
-// let time = 0;
+let time = 0;
 
-// setTimeout(showTime, 5000)
+setTimeout(showTime, 5000)
 
 
 // funkcja setInterval
