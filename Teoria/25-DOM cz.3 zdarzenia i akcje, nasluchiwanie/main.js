@@ -74,9 +74,9 @@ items.forEach((item) => item.addEventListener("click", addClassRed))
 
 // // TWORZENIE I DODAWANIE ELEMENTÓW DO STRONY
 
-// const divElement = document.createElement('div');
-// divElement.textContent = "Ostatni DIV";
-// divElement.style.backgroundColor = "red";
-// document.body.appendChild(divElement);
+const divElement = document.createElement('div');
+divElement.textContent = "Ostatni DIV";
+divElement.style.backgroundColor = "red";
+document.body.appendChild(divElement);
 
 
