@@ -38,13 +38,13 @@ const liItems = [...document.getElementsByTagName("li")];
 
 // Dodanie klasy (pętla i forEach)
 
-// for (let i = 0; i < liItems.length; i++) {
-//  liItems[i].style.fontSize = "40px";
-//  liItems[i].classList.add('red');
-// }
+ //for (let i = 0; i < liItems.length; i++) {
+ //liItems[i].style.fontSize = "40px";
+ //liItems[i].classList.add('red');
+//}
 
-// liItems.forEach(function(item) {
-//  item.style.textDecoration = "underline";
-//  item.style.fontSize = "40px";
-//  item.classList.add('red');
-// })
+liItems.forEach(function(item) {
+  item.style.textDecoration = "underline";
+ item.style.fontSize = "40px";
+ item.classList.add('red');
+})
